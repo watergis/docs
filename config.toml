@@ -7,9 +7,9 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "Documentation for Hugo Learn Theme"
-  author = "Mathieu Cornic"
+  editURL = "https://github.com/watergis/watergis-docs/edit/master/content/"
+  description = "Documentation of GIS for Water organization"
+  author = "Jin IGARASHI"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -19,7 +19,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Documentation of GIS for Water organization"
 weight = 1
 languageName = "English"
 
