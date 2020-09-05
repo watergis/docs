@@ -6,6 +6,11 @@ weight: 42
 - [Water Supply Map for WASAC RWSS, RWANDA](https://rural.water-gis.com)
 - since July 2020.
 
+## Demo
+
+The below is demo image of `Water Supply Map for WASAC RWSS`
+![demo_wasac](/images/showcase/demo_wasac.gif?width=50pc)
+
 {{< wasac_map >}}
 
 ---

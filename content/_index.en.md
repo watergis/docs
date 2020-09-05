@@ -17,11 +17,6 @@ Currently, the below orgainizations joined and are using vectortiles for their d
 
 {{< overview_map >}}
 
-## Demo
-
-The below is demo image of `Water Supply Map for WASAC RWSS`
-![demo_wasac](/images/showcase/demo_wasac.gif?width=50pc)
-
 ## Why Vectortiles?
 
 > Vector tiles make huge maps fast while offering full design flexibility. They are the vector data equivalent of image tiles for web mapping, applying the strengths of tiling — developed for caching, scaling and serving map imagery rapidly — to vector data. (from [Mapbox website](https://docs.mapbox.com/vector-tiles/reference/)).
