@@ -4,6 +4,7 @@ weight: 36
 ---
 
 Although GitHub Pages is free of charges for an Open Source Project, there are some usage limits. See more details about GitHub Pages [here](https://docs.github.com/en/github/working-with-github-pages/about-github-pages).
+
 * GitHub Pages source repositories have a recommended limit of 1GB.
 * Published GitHub Pages sites may be no larger than 1 GB.
 * GitHub Pages sites have a soft bandwidth limit of 100GB per month.

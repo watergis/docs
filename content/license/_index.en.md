@@ -10,11 +10,15 @@ chapter: true
 This chapter will show you the license of our open source projects
 
 #### 1. License of projects under `watergis` organization
+{{% notice info %}}
 All of libraries are under **MIT** license.
+{{% /notice %}}
 
 #### 2. License of vectortiles data
-Those vectortiles are licensed under a [Creative Commons Attribution 4.0 International
+{{% notice info %}}
+These vectortiles are licensed under a [Creative Commons Attribution 4.0 International
 License](http://creativecommons.org/licenses/by/4.0/).
+{{% /notice %}}
 
 If you want to use their open data, please mention their attiribution. For instance,
 
@@ -38,7 +42,9 @@ Also, if you want to use our stylefiles together with base map, please put the f
 ```
 
 #### 3. License of Stylefiles and Spritefiles
+{{% notice info %}}
 These following stylefiles are licenced under `C0-1.0 License`. However, we are using some icons of Mapbox Studio. So those icons which are from Mapbox, the license also belong them.
+{{% /notice %}}
 
 - [narwassco/mapbox-stylefiles](https://github.com/narwassco/mapbox-stylefiles): Stylefiles for Narok Water, Kenya
 - [WASAC/mapbox-stylefiles](https://github.com/WASAC/mapbox-stylefiles): Stylefiles for WASAC, Rwanda.
