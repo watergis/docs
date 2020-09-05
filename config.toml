@@ -1,14 +1,14 @@
-baseURL = "https://vectortiles-docs.water-gis.com"
+baseURL = "https://docs.water-gis.com"
 languageCode = "en-us"
 
-title = "Hugo Learn Documentation"
+title = "GIS for Water"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/watergis/watergis-docs/edit/master/content/"
-  description = "Documentation of GIS for Water organization"
+  editURL = "https://github.com/watergis/docs/edit/master/content/"
+  description = "Documentation of GIS for Water"
   author = "Jin IGARASHI"
   showVisitedLinks = false
   disableBreadcrumb = false
@@ -31,7 +31,7 @@ weight = 10
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/watergis/awesome-vector-tiles"
+url = "https://github.com/watergis/docs"
 weight = 20
 
 [[Languages.en.menu.shortcuts]]
