@@ -19,7 +19,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation of GIS for Water organization"
+title = "Documentation of GIS for Water"
 weight = 1
 languageName = "English"
 

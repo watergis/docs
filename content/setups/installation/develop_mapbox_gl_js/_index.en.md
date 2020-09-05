@@ -3,7 +3,13 @@ title: Develop and Deploy Web Application
 weight: 26
 ---
 
-You can use [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) to develop your own web application and delopy it to gh-pages. It is also possible for you to fork our water services providers' application.
+You can use [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) to develop your own web application and delopy it to gh-pages. 
+
+## Use boilerplate to create your repository
+[watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate) is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins. You can use this template to create your own repository easily.
+
+## Fork an existing repository to your organization
+It is also possible for you to fork our water services providers' application.
 
 - `Narok Water and Sewerage Services Co., Ltd, KENYA` : [narwassco/mapbox-gl-js-client](https://github.com/narwassco/mapbox-gl-js-client) 
 - `Water and Sanitation Corporation, Ltd, RWANDA` : [WASAC/mapbox-gl-js-client](https://github.com/WASAC/mapbox-gl-js-client) 
