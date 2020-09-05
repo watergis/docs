@@ -31,11 +31,11 @@ Our vectortiles approach uses Github pages without servers. I know it is quite d
 
 ## Steps for implementation of Vectortiles
 
-1. [Requirements before setup](./contents/requirements.md)
+1. [Preparation before vectortiles implementation](./setups/preparation)
 
-2. [How to generate vector tiles](./contents/how-to-generate-vectortiles.md)
+2. [How to generate vector tiles](./setups/installation)
 
-3. [Cost of Operation & Maintenance for Vectortiles](./contents/costs.md)
+3. [Cost of Operation & Maintenance for Vectortiles](./operation/costs/)
 
 ## Contribute to this documentation
 This vectortiles toolkit was developed and is maintained by Jin IGARASHI(see [portfolio](https://water-gis.com) if you are fascinated by more details about me). If you have any feedbacks, please let me know through Github's issues or pull request. Also, if you like my GIS works for water services providers in Africa, you can make donation through [Github Sponsor](https://github.com/sponsors/JinIgarashi).
