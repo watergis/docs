@@ -7,3 +7,6 @@ weight: 43
 - since August 2020.
 
 {{< nakuruwater_map >}}
+
+---
+`Copyright © 2020 Nakuru Water and Sanitation Services Co., Ltd., KENYA`

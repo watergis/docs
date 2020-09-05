@@ -82,5 +82,5 @@ Because this approach can use SQL language to directly extract the data from Pos
 
 The design of vectortiles depends on your GIS database and your needs. The below designs are just an example of vectortiles implementation for your reference.
 
-- [Vectortiles Design for Narok water, Kenya](https://github.com/watergis/awesome-vector-tiles/blob/master/contents/Vector-Tile-Design-for-Narok.md)
-- [Vectortiles Design for WASAC, Rwanda](https://github.com/watergis/awesome-vector-tiles/blob/master/contents/Vector-Tile-Design-for-WASAC.md)
+- [Vectortiles Design for Narok water, Kenya](../../../casestudies/narok)
+- [Vectortiles Design for WASAC, Rwanda](../../../casestudies/wasac)
