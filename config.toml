@@ -1,4 +1,4 @@
-baseURL = "https://watergis.github.io/watergis-docs"
+baseURL = "https://vectortiles-docs.water-gis.com"
 languageCode = "en-us"
 
 title = "Hugo Learn Documentation"
