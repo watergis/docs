@@ -7,7 +7,7 @@ title: "GIS for Water"
 This webiste is to show you our awesome implementations of the Mapbox Vector Tile for Water Services Providers.
 
 Also, we will guide you how to implement vectortiles and to share GIS data in your water company.
-
+ 
 ## Vectortile Based Water Map in Africa
 This is an [overview map](https://watergis.github.io/water-map) for to manage all of vectortiles of water supply system. You can zoom the map and tap any point, so you can see more detailed water supply network data from the link of popup.
 
@@ -16,6 +16,11 @@ Currently, the below orgainizations joined and are using vectortiles for their d
 - **1 organization** and **1100+ water systems** from Rwanda
 
 {{< overview_map >}}
+
+## Demo
+
+The below is demo image of `Water Supply Map for WASAC RWSS`
+![demo_wasac](/images/showcase/demo_wasac.gif?width=50pc)
 
 ## Why Vectortiles?
 
@@ -37,5 +42,7 @@ Our vectortiles approach uses Github pages without servers. I know it is quite d
 
 3. [Cost of Operation & Maintenance for Vectortiles](./operation/costs/)
 
-## Contribute to this documentation
-This vectortiles toolkit was developed and is maintained by Jin IGARASHI(see [portfolio](https://water-gis.com) if you are fascinated by more details about me). If you have any feedbacks, please let me know through Github's issues or pull request. Also, if you like my GIS works for water services providers in Africa, you can make donation through [Github Sponsor](https://github.com/sponsors/JinIgarashi).
+## Contribution to this Open Source Project
+This vectortiles toolkit was developed and is maintained by **Jin IGARASHI**(see [portfolio](https://water-gis.com) if you are fascinated by more details about me). If you have any feedbacks, please let me know through Github's issues or pull request. 
+
+Also, if you like my GIS works for water services providers in Africa, you can make donation through [Github Sponsor](https://github.com/sponsors/JinIgarashi).

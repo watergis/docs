@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir= true
   editURL = "https://github.com/watergis/watergis-docs/edit/master/content/"
   description = "Documentation of GIS for Water organization"
   author = "Jin IGARASHI"
-  showVisitedLinks = true
+  showVisitedLinks = false
   disableBreadcrumb = false
   disableNextPrev = false
 
@@ -24,23 +24,23 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
-identifier = "ds"
-url = "https://github.com/watergis/awesome-vector-tiles"
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "showcase"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-url = "showcase"
-weight = 11
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/watergis/awesome-vector-tiles"
 weight = 20
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
 weight = 30
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-address-card'></i> Contacts"
+identifier = "ds"
+url = "https://water-gis.com"
+weight = 40
