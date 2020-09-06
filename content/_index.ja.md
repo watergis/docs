@@ -11,7 +11,6 @@ title: "GIS for Water"
 ## アフリカのベクタータイルベースの水道地図
 まず、この[オーバービューマップ](https://watergis.github.io/water-map)はベクタータイルベースの水道システムを全てまとめたものです。地図をズームして、好きなポイントをタップし、ポップアップ内のリンクから詳細な水道マップを閲覧することができます。 
 
-Currently, the below orgainizations joined and are using vectortiles for their daily works.
 現在のところ、以下の組織がこのベクタータイルを使用して、日常的に業務に活用しています。
 - ケニアの**2水道事業体**と**5つの水道システム**
 - ルワンダの**1組織**と**1100+以上の水道システム**
