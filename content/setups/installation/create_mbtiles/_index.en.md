@@ -4,7 +4,7 @@ weight: 22
 ---
 
 ## Create mbtiles from PostGIS (work on `vt`)
-- [watergis/postgis2mbtiles](https://github.com/watergis/postgis2mbtiles) : This module will create `mbtiles` by GeoJSON data which is retrieved from `PostGIS`. this module is using [mapbox/tippecanoe](https://github.com/mapbox/tippecanoe), so please use Docker to generate mbtiles if your machine is `Windows`. But you can use the module directory in `MacOS` or `Ubuntu` machine. [watergis/postgis2mbtiles-docker](https://github.com/watergis/postgis2mbtiles-docker) is the source code for Docker implementation. 
+- [watergis/postgis2mbtiles](https://github.com/watergis/postgis2mbtiles) : This module will create `mbtiles` by GeoJSON data which is retrieved from `PostGIS`. this module is using [mapbox/tippecanoe](https://github.com/mapbox/tippecanoe), so please use Docker to generate mbtiles if your machine is `Windows`. But you can use the module directly in `MacOS` or `Ubuntu` machine. [watergis/postgis2mbtiles-docker](https://github.com/watergis/postgis2mbtiles-docker) is the source code for Docker implementation. 
 
 First of all, you need to make SQL queries for each layer on `config.js`, so `postgis2mbtiles` tool will extract required data from PostGIS and a mbtiles will be created.
 
