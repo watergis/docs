@@ -4,6 +4,7 @@ languageCode = "en-us"
 title = "GIS for Water"
 theme = "learn"
 metaDataFormat = "yaml"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= true
 
 [params]
@@ -41,6 +42,33 @@ weight = 30
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-address-card'></i> Contacts"
+identifier = "ds"
+url = "https://water-gis.com"
+weight = 40
+
+[Languages.ja]
+title = "GIS for Waterドキュメンテーション"
+weight = 2
+languageName = "日本語"
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> ショーケース"
+url = "showcase"
+weight = 10
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHubリポジトリ"
+identifier = "ds"
+url = "https://github.com/watergis/docs"
+weight = 20
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> クレジット"
+url = "/credits"
+weight = 30
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fas fa-address-card'></i> 連絡先"
 identifier = "ds"
 url = "https://water-gis.com"
 weight = 40
