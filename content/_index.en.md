@@ -38,6 +38,6 @@ Our vectortiles approach uses Github pages without servers. I know it is quite d
 3. [Cost of Operation & Maintenance for Vectortiles](./operation/costs/)
 
 ## Contribution to this Open Source Project
-This vectortiles toolkit was developed and is maintained by **Jin IGARASHI**(see [portfolio](https://water-gis.com) if you are fascinated by more details about me). If you have any feedbacks, please let me know through Github's issues or pull request. 
+This vectortiles toolkit was developed and is maintained by **Jin IGARASHI**(see [portfolio](https://water-gis.com) if you are fascinated by more details about me). 
 
-Also, if you like my GIS works for water services providers in Africa, you can make donation through [Github Sponsor](https://github.com/sponsors/JinIgarashi).
+Please let me know through Github's issues or pull request if you have any feedbacks. Also, if you like my GIS works for water services providers in Africa, please support this project through [Github Sponsor](https://github.com/sponsors/JinIgarashi).
