@@ -18,7 +18,7 @@ It is also possible for you to fork our water services providers' application.
 ### Customized Mapbox GL JS Plugins for this toolkit.
 
 I developed the following plugins for the web application for water services providers. All the plugins are already included in `mapbox-gl-js-client` repository for `Narok Water` and `WASAC`.
-- [watergis/mapbox-gl-print](https://github.com/watergis/mapbox-gl-print)
+- [watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export)
 - [watergis/mapbox-gl-legend](https://github.com/watergis/mapbox-gl-legend)
 - [watergis/mapbox-gl-area-switcher](https://github.com/watergis/mapbox-gl-area-switcher)
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control)
