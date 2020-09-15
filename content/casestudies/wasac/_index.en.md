@@ -19,10 +19,24 @@ This is the design of vector tiles for WASAC.
 You can also see our database design from [here](https://github.com/WASAC/database_documents).
 
 ### 1. URL of Vectortiles
-
+- Vectortiles
 ```
 https://wasac.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
+
+- Stylefiles
+  - Mapbox Street
+  ```
+  https://wasac.github.io/mapbox-stylefiles/street/style.json
+  ```
+  - Mapbox Satellite
+  ```
+  https://wasac.github.io/mapbox-stylefiles/satellite/style.json
+  ```
+  - UNVT
+  ```
+  https://wasac.github.io/mapbox-stylefiles/unvt/style.json
+  ```
 
 ### 2. List of Layers
 
