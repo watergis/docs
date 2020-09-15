@@ -17,3 +17,8 @@ You may need to create an account of Mapbox Studio. Also, please keep your publi
 You can see official manual of Mapbox Studio [here](https://docs.mapbox.com/studio-manual/overview/).
 
 You may need to repeat process of `genrating mbtiles` and `styling in Mapbox Studio` for finalying your stylefiles.
+
+However, `Mapbox Studio` has limitation to use third party vector tiles sources. So you can also use `Maputnik Editor` for this purpose.
+
+## Design your Mapbox Style on Maputnik Editor
+Once you created your Mapbox Style, it is easier to use [Maputnik Editor](https://maputnik.github.io/editor) to modify your style. It is free to use online. You can use any third party vector tiles sources.

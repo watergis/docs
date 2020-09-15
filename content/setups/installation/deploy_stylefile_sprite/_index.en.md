@@ -3,7 +3,7 @@ title: Deploy Mapbox Stylefiles and Sprite files to gh-pages
 weight: 25
 ---
 
-## 5. Deploy Mapbox Stylefiles and Sprite files on gh-pages
+## Deploy Mapbox Stylefiles and Sprite files on gh-pages
 - [watergis/sprite-creater](https://github.com/watergis/sprite-creator) : This module will assist you to create sprite files from your icons. 
 
 - Please create a repository which can be named `mapbox-stylefiles`. You can organize stylefiles and sprite files as following structures.

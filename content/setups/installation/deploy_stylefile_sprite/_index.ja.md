@@ -3,7 +3,7 @@ title: Mapboxスタイルファイルとスプライトファイルのgh-pages�
 weight: 25
 ---
 
-## 5. Mapboxスタイルファイルとスプライトファイルのgh-pagesへのデプロイ
+## Mapboxスタイルファイルとスプライトファイルのgh-pagesへのデプロイ
 - [watergis/sprite-creater](https://github.com/watergis/sprite-creator) : このモジュールがアイコンからスプライトファイルを作ってくれます。 
 
 - `mapbox-stylefiles`という名前のリポジトリを作成してください。 その上で次のような構成でスタイルファイルとスプライトファイルを配置します。

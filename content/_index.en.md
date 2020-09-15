@@ -7,15 +7,6 @@ title: "GIS for Water"
 This webiste is to show you our awesome implementations of the Mapbox Vector Tiles for Water Services Providers.
 
 Also, we will guide you how to implement vector tiles and to share GIS data in your water company.
- 
-## Vector Tiles Based Water Map in Africa
-This is an [overview map](https://watergis.github.io/water-map) for to manage all of vectortiles of water supply system. You can zoom the map and tap any point, so you can see more detailed water supply network data from the link of popup.
-
-Currently, the below orgainizations joined and are using vectortiles for their daily works.
-- **2 water services providers** and **5 water systems** from Kenya
-- **1 organization** and **1100+ water systems** from Rwanda
-
-{{< overview_map >}}
 
 ## Why Vector Tiles?
 
@@ -28,6 +19,9 @@ Its operation cost is normally cheaper compare to raster tiles data distribution
 In Africa, Internet connection is still poor in some rural area. This vectortiles is right solution for such as poor internet situation. You can enjoy browsing smoothly in your computer or smartphones.
 
 Our vector tiles approach uses Github pages without servers. I know it is quite difficult for some of water services providers to have servers in Africa. This toolkits were developed for you!
+
+## Case Studies
+See our case studies of actual water services providers in Africa from [Case Studies](./casestudies).
 
 ## Steps for implementation of Vector Tiles
 

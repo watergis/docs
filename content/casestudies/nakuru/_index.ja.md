@@ -12,10 +12,24 @@ weight: 43
 ## ナクルウォーターのベクタータイルのデザイン
 
 ### 1. ベクタータイルのURL
-
+- ベクタータイル
 ```
 https://nakuruwater.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
+
+- スタイルファイル
+  - Mapbox Street
+  ```
+  https://nakuruwater.github.io/mapbox-stylefiles/street/style.json
+  ```
+  - Mapbox Satellite
+  ```
+  https://nakuruwater.github.io/mapbox-stylefiles/satellite/style.json
+  ```
+  - UNVT
+  ```
+  https://nakuruwater.github.io/mapbox-stylefiles/unvt/style.json
+  ```
 
 ---
 `Copyright © 2020 Nakuru Water and Sanitation Services Co., Ltd., KENYA`
