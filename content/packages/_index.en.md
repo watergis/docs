@@ -27,6 +27,7 @@ All of libraries are under **MIT** license.
 - [watergis/mbtiles2pbf](https://github.com/watergis/mbtiles2pbf): a module to convert from mbtiles to pbf(mvt) vectortiles.
 - [watergis/postgis2vectortiles](https://github.com/watergis/postgis2vectortiles): a module to create pbf vectortiles from PostGIS directly.
 - [watergis/sprite-creator](https://github.com/watergis/sprite-creator): a module to create sprite files from SVG icons.
+- [watergis/mvt-generator](https://github.com/watergis/mvt-generator): This module creates MVT tiles directly from PostGIS
 
 #### 3. Software for EPANET
 - [watergis/geojson2inp](https://github.com/watergis/geojson2inp): a module create INP file from GeoJSON files.

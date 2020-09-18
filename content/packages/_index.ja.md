@@ -27,6 +27,7 @@ chapter: true
 - [watergis/mbtiles2pbf](https://github.com/watergis/mbtiles2pbf): mbtilesをpbf(mvt)ベクトルタイルに変換するモジュール
 - [watergis/postgis2vectortiles](https://github.com/watergis/postgis2vectortiles): PostGISからpbfベクトルタイルをダイレクトに生成するモジュール
 - [watergis/sprite-creator](https://github.com/watergis/sprite-creator): SVGアイコンからスプライトファイルを生成するモジュール
+- [watergis/mvt-generator](https://github.com/watergis/mvt-generator): PostGISから直接ベクトルタイルを１タイルずつ生成するモジュール
 
 #### 3. EPANET関係のソフトウェア
 - [watergis/geojson2inp](https://github.com/watergis/geojson2inp): GeoJSONファイルからINPファイルを生成するモジュール
