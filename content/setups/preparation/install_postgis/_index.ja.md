@@ -3,7 +3,7 @@ title: PostgresSQL/PostGISデータベースのインストール
 weight: 11
 ---
 
-このベクタータイルツールキットはPostgreSQL/PostGISデータベースを使用していますので、コンピュータにインストールをしてください。
+このベクトルタイルツールはPostgreSQL/PostGISデータベースを使用していますので、コンピュータにインストールをしてください。
 
 - [PostgreSQL](https://www.postgresql.org)
 - [PostGIS](https://postgis.net)

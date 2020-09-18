@@ -3,7 +3,7 @@ title: Dockerのインストール
 weight: 13
 ---
 
-このツールキットは`tippecanoe`というツールを使うために`Docker`を使用してPostGISデータベースからベクタータイルを生成します。したがってコンピュータには`Docker`をインストールする必要があります。 
+このツールキットは`tippecanoe`というツールを使うために`Docker`を使用してPostGISデータベースからベクトルタイルを生成します。したがってコンピュータには`Docker`をインストールする必要があります。 
 
 #### Docker Desktop（Windows）
 [公式ウェブサイト](https://docs.docker.com/docker-for-windows/install/)を参照し、インストールしてください。

@@ -18,7 +18,7 @@ weight: 23
 
 スタイルファイルを最終化するために`mbtilesの生成`と`Mapbox Studioでのスタイリング`のプロセスを何度も繰り返す必要があるかもしれません。
 
-しかしながら、`Mapbox Studio`はサードパーティのベクタータイルのリソースの使用に制限があります。そのため`Maputnik Editor`をお使いになることもできます。
+しかしながら、`Mapbox Studio`はサードパーティのベクトルタイルのリソースの使用に制限があります。そのため`Maputnik Editor`をお使いになることもできます。
 
 ## Maputnik EditorでのMapboxスタイルのデザイン
-Mapboxスタイルを一度完成できたら、[Maputnik Editor](https://maputnik.github.io/editor) を使って簡単にスタイルを編集できます。オンラインで無料で使え、いかなるサードパーティのベクタータイルのリソースも利用できます。
+Mapboxスタイルを一度完成できたら、[Maputnik Editor](https://maputnik.github.io/editor) を使って簡単にスタイルを編集できます。オンラインで無料で使え、いかなるサードパーティのベクトルタイルのリソースも利用できます。

@@ -8,10 +8,10 @@ disableToc: true
 このオープンソースプロジェクトの開発にあたり以下の方に感謝します!
 
 - [@JinIgarashi](https://github.com/JinIgarashi)の[watergis](https://github.com/watergis)での開発
-- [国連Open GISイニシアチブ](http://unopengis.org/)の[国連ベクタータイルツールキット](https://github.com/unvt)からの技術的サポート
+- [国連Open GISイニシアチブ](http://unopengis.org/)の[国連ベクトルタイルツールキット](https://github.com/unvt)からの技術的サポート
 
-### ベクタータイルデータのメンテナンス
-実際のベクタータイルデータは以下の水道事業体により運用・メンテナンスされています。また個々のベクタータイルはそれぞれのリポジトリに配置されています。
+### ベクトルタイルデータのメンテナンス
+実際のベクトルタイルデータは以下の水道事業体により運用・メンテナンスされています。また個々のベクトルタイルはそれぞれのリポジトリに配置されています。
 
 - [narwassco/vt](https://github.com/narwassco/vt): Vectortiles for Narok Water, Kenya
 - [WASAC/vt](https://github.com/WASAC/vt): Vectortiles for WASAC, Rwanda

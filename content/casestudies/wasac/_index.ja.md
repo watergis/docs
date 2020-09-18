@@ -14,12 +14,12 @@ weight: 42
 {{< wasac_map >}}
 
 ---
-## WASACのベクタータイルデザイン
-これはWASACのベクタータイルデザインです。
+## WASACのベクトルタイルデザイン
+これはWASACのベクトルタイルデザインです。
 [こちら](https://github.com/WASAC/database_documents)からデータベースのデザインもご覧になってください。
 
-### 1. ベクタータイルのURL
-- ベクタータイル
+### 1. ベクトルタイルのURL
+- ベクトルタイル
 ```
 https://wasac.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```

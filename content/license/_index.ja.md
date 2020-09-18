@@ -14,9 +14,9 @@ chapter: true
 全てのライブラリは**MIT**に基づきます
 {{% /notice %}}
 
-#### 2. ベクタータイルのライセンス
+#### 2. ベクトルタイルのライセンス
 {{% notice info %}}
-ベクタータイルデータは[Creative Commons Attribution 4.0 International 
+ベクトルタイルデータは[Creative Commons Attribution 4.0 International 
 License](http://creativecommons.org/licenses/by/4.0/)ライセンスに基づきます.
 {{% /notice %}}
 

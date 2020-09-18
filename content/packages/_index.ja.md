@@ -19,13 +19,13 @@ chapter: true
 - [watergis/mapbox-gl-print](https://github.com/watergis/mapbox-gl-print): PNGとPDFに出力できるシンプルな印刷用コントロール
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): 3Dと2Dを切り替えるシンプルな3Dボタンを追加します
 
-#### 2. ベクタータイル関係のソフトウェア
-- [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): PostGISからベクタータイルを生成しGithubページにデプロイするテンプレート
+#### 2. ベクトルタイル関係のソフトウェア
+- [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): PostGISからベクトルタイルを生成しGithubページにデプロイするテンプレート
 - [watergis/postgis2geojson](https://github.com/watergis/postgis2geojson): PostGISからGeoJSONを生成するモジュール
 - [watergis/postgis2mbtiles](https://github.com/watergis/postgis2mbtiles): PostGISからmbtilesを生成するモジュール
 - [watergis/postgis2mbtiles-docker](https://github.com/watergis/postgis2mbtiles-docker): `postgis2mbtiles`モジュールのDocker実装
-- [watergis/mbtiles2pbf](https://github.com/watergis/mbtiles2pbf): mbtilesをpbf(mvt)ベクタータイルに変換するモジュール
-- [watergis/postgis2vectortiles](https://github.com/watergis/postgis2vectortiles): PostGISからpbfベクタータイルをダイレクトに生成するモジュール
+- [watergis/mbtiles2pbf](https://github.com/watergis/mbtiles2pbf): mbtilesをpbf(mvt)ベクトルタイルに変換するモジュール
+- [watergis/postgis2vectortiles](https://github.com/watergis/postgis2vectortiles): PostGISからpbfベクトルタイルをダイレクトに生成するモジュール
 - [watergis/sprite-creator](https://github.com/watergis/sprite-creator): SVGアイコンからスプライトファイルを生成するモジュール
 
 #### 3. EPANET関係のソフトウェア

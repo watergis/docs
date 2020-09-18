@@ -9,10 +9,10 @@ weight: 43
 {{< nakuruwater_map >}}
 
 ---
-## ナクルウォーターのベクタータイルのデザイン
+## ナクルウォーターのベクトルタイルのデザイン
 
-### 1. ベクタータイルのURL
-- ベクタータイル
+### 1. ベクトルタイルのURL
+- ベクトルタイル
 ```
 https://nakuruwater.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
