@@ -1,11 +1,11 @@
 ---
 title: License
 weight: 60
-pre: "<b>5. </b>"
+pre: "<b>6. </b>"
 chapter: true
 ---
 
-### Chapter 5
+### Chapter 6
 
 This chapter will show you the license of our open source projects
 
