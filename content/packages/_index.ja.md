@@ -9,7 +9,7 @@ chapter: true
 
 この章ではこのオープンソースプロジェクトの一覧をご紹介します。
 
-全てのライブラリは**MIT**です。
+全てのライブラリは[Github](https://github.com/watergis)にあり、**MIT**ライセンスです。
 
 #### 1. Mapbox GL JSクライアント関係のモジュール
 - [watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate): 水道事業体向けにMapbox GL JSの実装を既に行い、全てのカスタマイズされたプラグインを含んだテンプレートです。 

@@ -9,7 +9,7 @@ chapter: true
 
 This chapter will show you the list of our open source projects.
 
-All of libraries are under **MIT** license.
+All of libraries are in [Github](https://github.com/watergis) under **MIT** license.
 
 #### 1. Software for Mapbox GL JS client
 - [watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate): This is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins.
