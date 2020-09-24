@@ -13,7 +13,7 @@ This chapter will show you some case studies of vectortiles implementation in wa
 This is an [overview map](https://watergis.github.io/water-map) for to manage all of vectortiles of water supply system. You can zoom the map and tap any point, so you can see more detailed water supply network data from the link of popup.
 
 Currently, the below orgainizations joined and are using vectortiles for their daily works.
-- **2 water services providers** and **5 water systems** from Kenya
+- **3 water services providers** and **6 water systems** from Kenya
 - **1 organization** and **1100+ water systems** from Rwanda
 
 {{< overview_map >}}
