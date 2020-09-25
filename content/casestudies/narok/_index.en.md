@@ -31,6 +31,14 @@ https://narwassco.github.io/vt/tiles/{z}/{x}/{y}.mvt
   https://narwassco.github.io/mapbox-stylefiles/unvt/style.json
   ```
 
+- License
+If you want to use their open data, please mention their attiribution. 
+
+- Attribution
+```
+Copyright (c) 2020 Narok Water and Serwerage Services Co, Ltd.
+```
+
 ### 2. List of Layers
 
 |No|Layer|Geometry Type|Min Zoom|Max Zoom|Remarks|

@@ -20,20 +20,7 @@ These vectortiles are licensed under a [Creative Commons Attribution 4.0 Interna
 License](http://creativecommons.org/licenses/by/4.0/).
 {{% /notice %}}
 
-If you want to use their open data, please mention their attiribution. For instance,
-
-- Attribution of Narok Water, Kenya
-```
-Copyright (c) 2020 Narok Water and Serwerage Services Co, Ltd.
-```
-- Atribution of WASAC, Rwanda
-```
-Copyright (c) 2020 Water and Sanitation Corporation, Ltd.
-```
-- Attribution of Nakuru Water, Kenya
-```
-Copyright (c) 2020 Nakuru Water and Sanitation Services Co, Ltd.
-```
+If you want to use their open data, please mention their attiribution. See the license at their case study page.
 
 Also, if you want to use our stylefiles together with base map, please put the following additional attribution on your map.
 

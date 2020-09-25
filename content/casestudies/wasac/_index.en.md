@@ -38,6 +38,14 @@ https://wasac.github.io/vt/tiles/{z}/{x}/{y}.mvt
   https://wasac.github.io/mapbox-stylefiles/unvt/style.json
   ```
 
+- License
+If you want to use their open data, please mention their attiribution. 
+
+- Atribution
+```
+Copyright (c) 2020 Water and Sanitation Corporation, Ltd.
+```
+
 ### 2. List of Layers
 
 |No|Layer|Min Zoom|Max Zoom|Geometry Type|

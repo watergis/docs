@@ -17,3 +17,10 @@ Currently, the below orgainizations joined and are using vectortiles for their d
 - **1 organization** and **1100+ water systems** from Rwanda
 
 {{< overview_map >}}
+
+- [Narok Water, KENYA](./narok)
+- [WASAC RWSS, RWANDA](./wasac)
+- [Nakuru Water, KENYA](./nakuru)
+- [Nanyuki Water, KENYA](./nanyuki)
+
+Also, see [license page](../license) about the license of their map data.

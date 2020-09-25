@@ -31,5 +31,13 @@ https://nawasco.github.io/vt/tiles/{z}/{x}/{y}.mvt
   https://nawasco.github.io/mapbox-stylefiles/unvt/style.json
   ```
 
+- ライセンス
+もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。
+
+- アトリビューション
+```
+Copyright (c) 2020 Nanyuki Water and Sewerage Co., Ltd.
+```
+
 ---
 `Copyright © 2020 Nanyuki Water and Sewerage Co., Ltd., KENYA`

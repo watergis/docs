@@ -31,6 +31,14 @@ https://narwassco.github.io/vt/tiles/{z}/{x}/{y}.mvt
   https://narwassco.github.io/mapbox-stylefiles/unvt/style.json
   ```
 
+- ライセンス
+もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。
+
+- アトリビューション
+```
+Copyright (c) 2020 Narok Water and Serwerage Services Co, Ltd.
+```
+
 ### 2. レイヤー一覧
 
 |No|Layer|Geometry Type|Min Zoom|Max Zoom|Remarks|

@@ -20,20 +20,7 @@ chapter: true
 License](http://creativecommons.org/licenses/by/4.0/)ライセンスに基づきます.
 {{% /notice %}}
 
-もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。例えば、
-
-- ケニア・ナロックウォーターのアトリビューション
-```
-Copyright (c) 2020 Narok Water and Serwerage Services Co, Ltd.
-```
-- ルワンダ・WASACのアトリビューション
-```
-Copyright (c) 2020 Water and Sanitation Corporation, Ltd.
-```
-- ケニア・ナクルウォーターのアトリビューション
-```
-Copyright (c) 2020 Nakuru Water and Sanitation Services Co, Ltd.
-```
+もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。個別のライセンスについてはそれぞれのケーススタディのページをご覧ください。
 
 また彼らのスタイルファイルをベースマップと共に使いたい場合は、次のアトリビューションも追加してください。
 ```

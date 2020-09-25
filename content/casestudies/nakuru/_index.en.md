@@ -31,5 +31,13 @@ https://nakuruwater.github.io/vt/tiles/{z}/{x}/{y}.mvt
   https://nakuruwater.github.io/mapbox-stylefiles/unvt/style.json
   ```
 
+- License
+If you want to use their open data, please mention their attiribution. 
+
+- Attribution
+```
+Copyright (c) 2020 Nakuru Water and Sanitation Services Co, Ltd.
+```
+
 ---
 `Copyright © 2020 Nakuru Water and Sanitation Services Co., Ltd., KENYA`

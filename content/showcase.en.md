@@ -7,7 +7,7 @@ The following websites are the final outputs of vector tiles maps for water sevi
 
 You will see how this vectortiles is powerful for your water services providers.
 
-- [Water Supply Map for Narok Water, KENYA](../casestudies/narok)
-- [Water Supply Map for WASAC RWSS, RWANDA](../casestudies/wasac)
-- [Water Supply Map for Nakuru Water, KENYA](../casestudies/nakuru)
-- [Water Supply Map for Nanyuki Water, KENYA](../casestudies/nanyuki)
+- [Narok Water, KENYA](../casestudies/narok)
+- [WASAC RWSS, RWANDA](../casestudies/wasac)
+- [Nakuru Water, KENYA](../casestudies/nakuru)
+- [Nanyuki Water, KENYA](../casestudies/nanyuki)
