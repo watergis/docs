@@ -12,29 +12,28 @@ weight: 41
 ## ナロックウォーターのベクトルタイルのデザイン
 
 ### 1. ベクトルタイルのURL
-- ベクトルタイル
+#### ベクトルタイル
 ```
 https://narwassco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
-- スタイルファイル
-  - Mapbox Street
-  ```
-  https://narwassco.github.io/mapbox-stylefiles/street/style.json
-  ```
-  - Mapbox Satellite
-  ```
-  https://narwassco.github.io/mapbox-stylefiles/satellite/style.json
-  ```
-  - UNVT
-  ```
-  https://narwassco.github.io/mapbox-stylefiles/unvt/style.json
-  ```
+#### スタイルファイル
+- Mapbox Street
+```
+https://narwassco.github.io/mapbox-stylefiles/street/style.json
+```
+- Mapbox Satellite
+```
+https://narwassco.github.io/mapbox-stylefiles/satellite/style.json
+```
+- UNVT
+```
+https://narwassco.github.io/mapbox-stylefiles/unvt/style.json
+```
 
-- ライセンス
+#### ライセンス
 もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。
 
-- アトリビューション
 ```
 Copyright (c) 2020 Narok Water and Serwerage Services Co, Ltd.
 ```

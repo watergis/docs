@@ -19,29 +19,28 @@ weight: 42
 [こちら](https://github.com/WASAC/database_documents)からデータベースのデザインもご覧になってください。
 
 ### 1. ベクトルタイルのURL
-- ベクトルタイル
+#### ベクトルタイル
 ```
 https://wasac.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
-- スタイルファイル
-  - Mapbox Street
-  ```
-  https://wasac.github.io/mapbox-stylefiles/street/style.json
-  ```
-  - Mapbox Satellite
-  ```
-  https://wasac.github.io/mapbox-stylefiles/satellite/style.json
-  ```
-  - UNVT
-  ```
-  https://wasac.github.io/mapbox-stylefiles/unvt/style.json
-  ```
+#### スタイルファイル
+- Mapbox Street
+```
+https://wasac.github.io/mapbox-stylefiles/street/style.json
+```
+- Mapbox Satellite
+```
+https://wasac.github.io/mapbox-stylefiles/satellite/style.json
+```
+- UNVT
+```
+https://wasac.github.io/mapbox-stylefiles/unvt/style.json
+```
 
-- ライセンス
+#### ライセンス
 もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。
 
-- アトリビューション
 ```
 Copyright (c) 2020 Water and Sanitation Corporation, Ltd.
 ```

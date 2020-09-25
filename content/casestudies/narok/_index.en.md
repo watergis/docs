@@ -12,29 +12,28 @@ weight: 41
 ## Vectortiles Design for Narok water, Kenya
 
 ### 1. URL of Vectortiles
-- Vectortiles
+#### Vectortiles
 ```
 https://narwassco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
-- Stylefiles
-  - Mapbox Street
-  ```
-  https://narwassco.github.io/mapbox-stylefiles/street/style.json
-  ```
-  - Mapbox Satellite
-  ```
-  https://narwassco.github.io/mapbox-stylefiles/satellite/style.json
-  ```
-  - UNVT
-  ```
-  https://narwassco.github.io/mapbox-stylefiles/unvt/style.json
-  ```
+#### Stylefiles
+- Mapbox Street
+```
+https://narwassco.github.io/mapbox-stylefiles/street/style.json
+```
+- Mapbox Satellite
+```
+https://narwassco.github.io/mapbox-stylefiles/satellite/style.json
+```
+- UNVT
+```
+https://narwassco.github.io/mapbox-stylefiles/unvt/style.json
+```
 
-- License
+#### License
 If you want to use their open data, please mention their attiribution. 
 
-- Attribution
 ```
 Copyright (c) 2020 Narok Water and Serwerage Services Co, Ltd.
 ```

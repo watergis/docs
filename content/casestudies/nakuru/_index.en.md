@@ -12,29 +12,28 @@ weight: 43
 ## Vectortiles Design for Nakuru water, Kenya
 
 ### 1. URL of Vectortiles
-- Vectortiles
+#### Vectortiles
 ```
 https://nakuruwater.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
-- Stylefiles
-  - Mapbox Street
-  ```
-  https://nakuruwater.github.io/mapbox-stylefiles/street/style.json
-  ```
-  - Mapbox Satellite
-  ```
-  https://nakuruwater.github.io/mapbox-stylefiles/satellite/style.json
-  ```
-  - UNVT
-  ```
-  https://nakuruwater.github.io/mapbox-stylefiles/unvt/style.json
-  ```
+#### Stylefiles
+- Mapbox Street
+```
+https://nakuruwater.github.io/mapbox-stylefiles/street/style.json
+```
+- Mapbox Satellite
+```
+https://nakuruwater.github.io/mapbox-stylefiles/satellite/style.json
+```
+- UNVT
+```
+https://nakuruwater.github.io/mapbox-stylefiles/unvt/style.json
+```
 
-- License
+#### License
 If you want to use their open data, please mention their attiribution. 
 
-- Attribution
 ```
 Copyright (c) 2020 Nakuru Water and Sanitation Services Co, Ltd.
 ```

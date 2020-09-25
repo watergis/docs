@@ -12,29 +12,28 @@ weight: 43
 ## Vectortiles Design for Nanyuki water, Kenya
 
 ### 1. URL of Vectortiles
-- Vectortiles
+#### Vectortiles
 ```
 https://nawasco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
-- Stylefiles
-  - Mapbox Street
-  ```
-  https://nawasco.github.io/mapbox-stylefiles/street/style.json
-  ```
-  - Mapbox Satellite
-  ```
-  https://nawasco.github.io/mapbox-stylefiles/satellite/style.json
-  ```
-  - UNVT
-  ```
-  https://nawasco.github.io/mapbox-stylefiles/unvt/style.json
-  ```
+#### Stylefiles
+- Mapbox Street
+```
+https://nawasco.github.io/mapbox-stylefiles/street/style.json
+```
+- Mapbox Satellite
+```
+https://nawasco.github.io/mapbox-stylefiles/satellite/style.json
+```
+- UNVT
+```
+https://nawasco.github.io/mapbox-stylefiles/unvt/style.json
+```
 
-- License
+#### License
 If you want to use their open data, please mention their attiribution. 
 
-- Attribution
 ```
 Copyright (c) 2020 Nanyuki Water and Sewerage Co., Ltd.
 ```

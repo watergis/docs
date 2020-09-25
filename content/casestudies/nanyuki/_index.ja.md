@@ -12,29 +12,28 @@ weight: 43
 ## ナニュキウォーターのベクトルタイルのデザイン
 
 ### 1. ベクトルタイルのURL
-- ベクトルタイル
+#### ベクトルタイル
 ```
 https://nawasco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
-- スタイルファイル
-  - Mapbox Street
-  ```
-  https://nawasco.github.io/mapbox-stylefiles/street/style.json
-  ```
-  - Mapbox Satellite
-  ```
-  https://nawasco.github.io/mapbox-stylefiles/satellite/style.json
-  ```
-  - UNVT
-  ```
-  https://nawasco.github.io/mapbox-stylefiles/unvt/style.json
-  ```
+#### スタイルファイル
+- Mapbox Street
+```
+https://nawasco.github.io/mapbox-stylefiles/street/style.json
+```
+- Mapbox Satellite
+```
+https://nawasco.github.io/mapbox-stylefiles/satellite/style.json
+```
+- UNVT
+```
+https://nawasco.github.io/mapbox-stylefiles/unvt/style.json
+```
 
-- ライセンス
+#### ライセンス
 もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。
 
-- アトリビューション
 ```
 Copyright (c) 2020 Nanyuki Water and Sewerage Co., Ltd.
 ```
