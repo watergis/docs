@@ -1,10 +1,10 @@
 ---
-title: Design Mapbox Stylefile
+title: Design Mapbox Style
 weight: 23
 ---
 
 ## Design your Mapbox Style on Mapbox Studio
-Next step is to design your own Mapbox Style on Mapbox Studio by using `mbtile` which was produced before.
+Next step is to design your own Mapbox Style on [Mapbox Studio](https://studio.mapbox.com) by using `mbtile` which was produced before.
 
 For better designs of beautiful water maps, you might need to design your own icons for your layers. You may use the following icons for your reference.
 

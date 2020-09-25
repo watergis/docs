@@ -15,34 +15,37 @@ weight: 20
 {{<mermaid align="center">}}
 sequenceDiagram
     participant db as PostGIS
-    participant x as User
-    participant a as postgis2mbtiles
-    participant b as postgis2vectortiles
-    participant d as mapbox-stylefiles
-    participant y as Mapbox Studio
-    participant z as gh-pages
+    participant user as User
+    participant vt as vt
+    participant style as mapbox-stylefiles
+    participant mapbox as Mapbox Studio
+    participant action as Github Actions
+    participant ghpages as gh-pages
 
-    db->>a: GeoJSON
-    Note over a: tippecanoe
-    a->>x: mbtiles
+    db->>vt: GeoJSON
+    Note over vt: tippecanoe
+    vt->>user: mbtiles
     
-    x->>y: mbtilesアップロード
-    y->>y: Mapboxスタイル編集
-    Note over y: Stylefile editing
+    user->>mapbox: Upload mbtiles
+    mapbox->>mapbox: Mapboxスタイルファイル
+    Note over mapbox: スタイルファイル編集
 
-    x->>x: postgis2vectortilesの設定変更
-    db->>b: GeoJSON
-    b->>z: Mapboxベクトルタイル(pbf tile) 
-    Note over b: gh-pagesへのアップロード
+    db->>vt: GeoJSON
+    Note over vt: スタイルファイルが完成したら
+    vt->>action: mbtilesアップロード
+    action->>ghpages: ベクトルタイル(pbf/mvt) 
+    Note over action: ビルド&デプロイ
 
-    y->>x: MapboxスタイルとSVGのダウンロード
-    x->>x: スタイルファイルを編集し、gh-pagesにアップロード
-    x->>d: スタイルファイルの生成
-    x->>d: スプライトファイルの生成
-    d->>z: Mapboxスタイルとスプライトのアップロード
+    mapbox->>user: MapboxスタイルとSVGのダウンロード
+    user->>user: スタイルファイルを編集し、gh-pagesにアップロード
+    user->>style: スタイルファイルの生成
+    user->>style: スプライトファイルの生成
+    style->>ghpages: Mapboxスタイルとスプライトのデプロイ
 
-    x-->>x: Mapbox GL JSでのウェブアプリ開発
-    x->>z: HTML/JavaScriptのアップロード
+    user-->>user: Mapbox GL JSでのウェブアプリ開発
+    user->>action: HTML/JavaScriptのアップロード
+    action->>ghpages: HTML/JavaScript
+    Note over action: ビルド&デプロイ
 {{< /mermaid >}}
 
 ## 次に

@@ -76,7 +76,7 @@ ST_TRANSFORM(geom,4326)
 - `Water and Sanitation Corporation, Ltd, RWANDA` : [config.js](https://github.com/WASAC/vt/blob/master/config.js)
 - `Nakuru Water and Sanitation Services Co., Ltd, KENYA` : [config.js](https://github.com/nakuruwater/vt/blob/master/config.js)
 
-このアプローとはSQL言語を使って直接PostGISからデータを取り出すので、ほとんど全ての水道事業体のGISデータベースに柔軟に対応することができます。
+このアプローチはSQL言語を使って直接PostGISからデータを取り出すので、ほとんど全ての水道事業体のGISデータベースに柔軟に対応することができます。
 
 ### ベクトルタイルのデザインの例
 

@@ -25,15 +25,19 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-url = "showcase"
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+url = "https://github.com/watergis/docs"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
-identifier = "ds"
-url = "https://github.com/watergis/docs"
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "/showcase"
 weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-tools'></i> Third party tools"
+url = "/tools"
+weight = 21
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
@@ -52,15 +56,19 @@ weight = 2
 languageName = "日本語"
 
 [[Languages.ja.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> ショーケース"
-url = "showcase"
+name = "<i class='fab fa-fw fa-github'></i> GitHubリポジトリ"
+url = "https://github.com/watergis/docs"
 weight = 10
 
 [[Languages.ja.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHubリポジトリ"
-identifier = "ds"
-url = "https://github.com/watergis/docs"
+name = "<i class='fas fa-fw fa-camera'></i> ショーケース"
+url = "/showcase"
 weight = 20
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fas fa-tools'></i> サードパーティのツール"
+url = "/tools"
+weight = 21
 
 [[Languages.ja.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> クレジット"

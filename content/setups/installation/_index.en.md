@@ -15,34 +15,37 @@ First of all, you can understand our toolkit's whole procedures in the below ima
 {{<mermaid align="center">}}
 sequenceDiagram
     participant db as PostGIS
-    participant x as User
-    participant a as postgis2mbtiles
-    participant b as postgis2vectortiles
-    participant d as mapbox-stylefiles
-    participant y as Mapbox Studio
-    participant z as gh-pages
+    participant user as User
+    participant vt as vt
+    participant style as mapbox-stylefiles
+    participant mapbox as Mapbox Studio
+    participant action as Github Actions
+    participant ghpages as gh-pages
 
-    db->>a: GeoJSON
-    Note over a: tippecanoe
-    a->>x: mbtiles
+    db->>vt: GeoJSON
+    Note over vt: tippecanoe
+    vt->>user: mbtiles
     
-    x->>y: Upload mbtiles
-    y->>y: Edit Mapbox Stylefiles
-    Note over y: Stylefile editing
+    user->>mapbox: Upload mbtiles
+    mapbox->>mapbox: Edit Mapbox Stylefiles
+    Note over mapbox: Stylefile editing
 
-    x->>x: configure settings for postgis2vectortiles
-    db->>b: GeoJSON
-    b->>z: Mapbox Vectortiles (pbf tile) 
-    Note over b: Upload to gh-pages
+    db->>vt: GeoJSON
+    Note over vt: Once stylefile is ready
+    vt->>action: Upload mbtiles
+    action->>ghpages: Vector tiles(pbf/mvt) 
+    Note over action: Build & Deploy
 
-    y->>x: Download Mapbox Stylefiles and SVG icons
-    x->>x: Edit Stylefiles for gh-pages
-    x->>d: produce Stylefiles
-    x->>d: produce sprite files
-    d->>z: Mapbox Stylefiles and Sprite files
+    mapbox->>user: Download Mapbox Stylefiles and SVG icons
+    user->>user: Edit Stylefiles for gh-pages
+    user->>style: generate Stylefiles
+    user->>style: generate sprite files
+    style->>ghpages: Deploy Style files and Sprite files
 
-    x-->>x: Develop Web app by Mapbox GL JS
-    x->>z: Upload HTML/JavaScript
+    user-->>user: Develop Web app by Mapbox GL JS
+    user->>action: Upload HTML/JavaScript
+    action->>ghpages: HTML/JavaScript
+    Note over action: Build & Deploy
 {{< /mermaid >}}
 
 ## Next

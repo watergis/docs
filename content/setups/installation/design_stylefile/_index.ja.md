@@ -1,10 +1,10 @@
 ---
-title: Mapboxスタイルファイルのデザイン
+title: Mapboxスタイルのデザイン
 weight: 23
 ---
 
-## Mapbox StudioでのMapboxスタイルファイルのデザイン
-次に、一つ前のステップで生成した`mbtile`を使ってMapbox StudioでMapboxスタイルをデザインします。
+## Mapbox StudioでのMapboxスタイルのデザイン
+次に、一つ前のステップで生成した`mbtile`を使って[Mapbox Studio](https://studio.mapbox.com)でMapboxスタイルをデザインします。
 
 より美しい地図をデザインするためには、自分たちのレイヤー専用にアイコンをデザインする必要があるかもしれません。次のアイコンはもしかしたら参考になるかもしれません。
 
