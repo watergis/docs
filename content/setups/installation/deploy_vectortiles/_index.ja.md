@@ -76,3 +76,16 @@ jobs:
 
 - `ナクルウォーター`も[`WASAC/vt`アプローチ]を使い始めました。
   - [nakuruwater/vt](https://github.com/nakuruwater/vt)
+
+## ベクトルタイルの容量がgh-pagesのキャパを超える場合
+Github Pagesは最大で1GBの容量制限があります。もしこの制限をデータサイズが超えるようなら、gh-pagesへデプロイすることはできません。
+
+しかしながら、もしかしたら[Netlify](https://www.netlify.com)を使うというオプションがあるかもしれません。
+
+ルワンダでは、ベースマップとしてParcels（筆）データを追加したいという要望がありました。ルワンダ全国のParcelsデータは元々シェープファイルで8GB、pbfのベクトルタイルに変換したところ1.2GBほどになりました。しかしながら、Netlifyを用いてParcelsをデプロイすることに成功しています。
+
+どのように大きなベクトルタイルをNetlifyにデプロイできたか、次のリポジトリが参考になるでしょう。
+- [WASAC/vt-parcels-2020](https://github.com/WASAC/vt-parcels-2020): 2020年7月21日時点の最新のルワンダのParcelsデータ
+- [WASAC/vt-parcels](https://github.com/WASAC/vt-parcels): 2019年以前の古いルワンダのParcelsデータ(正確なデータの日付は不明)
+
+Parcelsデータが非常に巨大であったため、PostGISからGeoJSONを取り出して**tippecanoe**を使用することができませんでした。そのためこのケースでは、[watergis/mvt-generator](https://github.com/watergis/mvt-generator)というモジュールを開発し、PostGISから直接pbfタイルを作成することにしました。**vt**リポジトリで行っていることとはちょっと違うアプローチになっています。

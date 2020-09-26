@@ -76,3 +76,16 @@ jobs:
 
 - `Nakuru Water` also started using [`WASAC/vt` approach]. 
   - [nakuruwater/vt](https://github.com/nakuruwater/vt)
+
+## In case data size exceeds more than capacity of Github Pages
+Github Pages has limitation of usage maximum 1GB storage. If your data exceeds that limit, it is not possible to deploy to gh-pages.
+
+However, you may have another option to use [Netlify](https://www.netlify.com).
+
+In Rwanda, we wanted to include parcels data as base map. Parcels in the whole Rwanda is originally 8GB in shapefile. After converting to pbf vector tiles, total size of tiles became 1.2GB. But we successfully managed to deploy parcels by usign Netlify.
+
+You can have a look the below repository how we deployed huge vector tiles to Netlify.
+- [WASAC/vt-parcels-2020](https://github.com/WASAC/vt-parcels-2020): Letest parcels as of 21 July 2020
+- [WASAC/vt-parcels](https://github.com/WASAC/vt-parcels): Old parcels vector tiles before 2019(we are not sure exact surveyed date)
+
+Because parcels data is huge, we could not extract GeoJSON from PostGIS and to use **tippecanoe**. Thus in this case, we directly extract pbf tiles from PostGIS by using [watergis/mvt-generator](https://github.com/watergis/mvt-generator) module. It is quite different approach from what **vt** repository do.
