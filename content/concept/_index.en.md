@@ -16,7 +16,7 @@ After collecting GIS data of water, most water services providers in Africa ofte
 
 I have been looking for a way to keep their motivation to maintain the data continuously by having the water GIS data widely used through WebGIS. Recently, I became involved in a technology called **vector tiles**, then I developed this open source tool for water services providers.
 
-#### 3. Objectives
+#### 3. Benefit of using Vector Tiles in water services providers
 - To establish the effective way to share and utilize GIS data with all staffs after data collection
 - To utilize GIS data more in order to make waterworks efficiency
 - To use GIS data for all type of waterworks in utility (NOT ONLY for NRW and water distribution)
