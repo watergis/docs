@@ -18,15 +18,23 @@ https://nawasco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
 #### スタイルファイル
-- Mapbox Street
+- Mapbox Street(clean water)
 ```
 https://nawasco.github.io/mapbox-stylefiles/street/style.json
 ```
-- Mapbox Satellite
+- Mapbox Satellite(clean water)
 ```
 https://nawasco.github.io/mapbox-stylefiles/satellite/style.json
 ```
-- UNVT
+- Mapbox Street(sewer)
+```
+https://nawasco.github.io/mapbox-stylefiles/street/style_sewer.json
+```
+- Mapbox Satellite(sewer)
+```
+https://nawasco.github.io/mapbox-stylefiles/satellite/style_sewer.json
+```
+- UNVT (combined water and sewer)
 ```
 https://nawasco.github.io/mapbox-stylefiles/unvt/style.json
 ```
