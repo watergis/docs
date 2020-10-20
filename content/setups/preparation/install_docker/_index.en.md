@@ -20,5 +20,6 @@ brew cask install docker
 ```
 
 #### Docker on Ubuntu
-See [official webpage](https://docs.docker.com/engine/install/ubuntu/) to install it
+See [official webpage](https://docs.docker.com/engine/install/ubuntu/) to install it.
 
+However, if it is Linux, you don't actually need to install Docker. You can directly install `tippecanoe` on ubuntu to use these tools.

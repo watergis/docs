@@ -22,3 +22,4 @@ brew cask install docker
 #### Docker（Ubuntu）
 [公式ウェブサイト](https://docs.docker.com/engine/install/ubuntu/)を参照し、インストールしてください。
 
+しかしながら、もしLinuxの場合は、Dockerをインストールする必要はありません。直接`tippecanoe`をインストールして、このツールを使うことができます。
