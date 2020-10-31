@@ -39,6 +39,12 @@ name = "<i class='fas fa-tools'></i> Third party tools"
 url = "/tools"
 weight = 21
 
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-question'></i> Q&A"
+url = "/questions"
+weight = 22
+
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
@@ -69,6 +75,11 @@ weight = 20
 name = "<i class='fas fa-tools'></i> サードパーティのツール"
 url = "/tools"
 weight = 21
+
+[[Languages.ja.menu.shortcuts]]
+name = "<i class='fas fa-question'></i> Q&A"
+url = "/questions"
+weight = 22
 
 [[Languages.ja.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> クレジット"
