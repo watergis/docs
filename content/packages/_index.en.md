@@ -18,6 +18,7 @@ All of libraries are in [Github](https://github.com/watergis) under **MIT** lice
 - [watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup): add a simple popup into Mapbox GL JS.
 - [watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export): add a simple control that exports a map as PNG or PDF.
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): add a simple 3D button to change between 3D and 2D
+- [watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation): adds elevation control to mapbox-gl. It relys on terrain RGB raster tilesets.
 
 #### 2. Software for Vectortiles
 - [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): a template to create vectortiles from PostGIS and deploy it to Github pages.
@@ -32,4 +33,8 @@ All of libraries are in [Github](https://github.com/watergis) under **MIT** lice
 #### 3. Software for EPANET
 - [watergis/geojson2inp](https://github.com/watergis/geojson2inp): a module create INP file from GeoJSON files.
 - [watergis/postgis2inp](https://github.com/watergis/postgis2inp): a module create INP file directly from PostGIS.
+
+#### 4. Software for Elevation
+- [watergis/dem2terrainrgb](https://github.com/watergis/dem2terrainrgb): a python module to convert DEM to terrain RGB raster tiles.
+- [watergis/terrain-rgb](https://github.com/watergis/terrain-rgb): a typescript module to extract elevation from terrain RGB tilesets by longitude and latitude.
 

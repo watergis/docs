@@ -24,6 +24,15 @@ You can also see our database design from [here](https://github.com/WASAC/databa
 https://wasac.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
+#### Terrain RGB raster tileset
+```
+https://wasac.github.io/rw-terrain/tiles/{z}/{x}/{y}.png
+```
+
+- available zoom level: 5 - 15
+- tile size: 512
+- it was made from 10m DEM which is owned by WASAC.
+
 #### Stylefiles
 - Mapbox Street
 ```
@@ -37,6 +46,11 @@ https://wasac.github.io/mapbox-stylefiles/satellite/style.json
 ```
 https://wasac.github.io/mapbox-stylefiles/unvt/style.json
 ```
+- Terrain
+```
+https://wasac.github.io/mapbox-stylefiles/terrain/style.json
+```
+Note. This terrain stylefile can work on Mapbox GL JS v2 only.　Mapbox GL JS v2 now became proprietary software, you may be charged some fee by them.
 
 #### License
 If you want to use their open data, please mention their attiribution. 

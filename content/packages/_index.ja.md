@@ -18,6 +18,7 @@ chapter: true
 - [watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup): Mapbox GL JSにシンプルなポップアップを追加します
 - [watergis/mapbox-gl-print](https://github.com/watergis/mapbox-gl-print): PNGとPDFに出力できるシンプルな印刷用コントロール
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): 3Dと2Dを切り替えるシンプルな3Dボタンを追加します
+- [watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation): Mapbox GL JSに標高取得ツールを追加します。Terrain RGBタイルセットに依存するプラグインです。
 
 #### 2. ベクトルタイル関係のソフトウェア
 - [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): PostGISからベクトルタイルを生成しGithubページにデプロイするテンプレート
@@ -33,3 +34,6 @@ chapter: true
 - [watergis/geojson2inp](https://github.com/watergis/geojson2inp): GeoJSONファイルからINPファイルを生成するモジュール
 - [watergis/postgis2inp](https://github.com/watergis/postgis2inp): PostGISからINPファイルを生成するモジュール
 
+#### 4. 標高関係のソフトウェア
+- [watergis/dem2terrainrgb](https://github.com/watergis/dem2terrainrgb): DEMをTerrain RGBのラスタタイルセットに変換するPythonモジュール
+- [watergis/terrain-rgb](https://github.com/watergis/terrain-rgb): 指定した緯度経度でTerrain RGBのラスタタイルセットから標高を取得するTypescriptのモジュール

@@ -24,6 +24,15 @@ weight: 42
 https://wasac.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
+#### Terrain RGBラスタタイルセット
+```
+https://wasac.github.io/rw-terrain/tiles/{z}/{x}/{y}.png
+```
+
+- 利用可能なズームレベル: 5 - 15
+- タイルサイズ: 512
+- WASAC所有の10mのDEMデータから作成されました。
+
 #### スタイルファイル
 - Mapbox Street
 ```
@@ -37,6 +46,11 @@ https://wasac.github.io/mapbox-stylefiles/satellite/style.json
 ```
 https://wasac.github.io/mapbox-stylefiles/unvt/style.json
 ```
+- Terrain
+```
+https://wasac.github.io/mapbox-stylefiles/terrain/style.json
+```
+この標高スタイルはMapbox GL JS v2でのみ機能します。v2からライセンスがプロプライエタリになっており、利用料金がかかる可能性があります。
 
 #### ライセンス
 もし彼らのオープンデータをご使用になりたい場合は次のようなアトリビューションを必ず使ってください。
