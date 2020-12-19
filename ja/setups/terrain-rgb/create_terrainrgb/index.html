@@ -1,0 +1,168 @@
+<!doctype html><html lang=ja class="js csstransforms3d"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.74.2"><meta name=description content="Documentation of GIS for Water"><meta name=author content="Jin IGARASHI"><link rel=icon href=/images/favicon.png type=image/png><title>DEMからTerrain RGBタイルを生成 :: GIS for Waterドキュメンテーション</title><link href=/css/nucleus.css?1608373302 rel=stylesheet><link href=/css/fontawesome-all.min.css?1608373302 rel=stylesheet><link href=/css/hybrid.css?1608373302 rel=stylesheet><link href=/css/featherlight.min.css?1608373302 rel=stylesheet><link href=/css/perfect-scrollbar.min.css?1608373302 rel=stylesheet><link href=/css/auto-complete.css?1608373302 rel=stylesheet><link href=/css/atom-one-dark-reasonable.css?1608373302 rel=stylesheet><link href=/css/theme.css?1608373302 rel=stylesheet><link href=/css/hugo-theme.css?1608373302 rel=stylesheet><script src=/js/jquery-3.3.1.min.js?1608373302></script><style>:root #header+#content>#left>#rlblock_left{display:none!important}</style></head><body data-url=/ja/setups/terrain-rgb/create_terrainrgb/><nav id=sidebar><div id=header-wrapper><div id=header><a id=logo href=/><div style=font-size:x-large;font-weight:700;color:#fff>GIS for Water</div></a></div><div class=searchbox><label for=search-by><i class="fas fa-search"></i></label><input data-search-input id=search-by type=search placeholder=検索...>
+<span data-search-clear><i class="fas fa-times"></i></span></div><script type=text/javascript src=/js/lunr.min.js?1608373302></script><script type=text/javascript src=/js/auto-complete.js?1608373302></script><script type=text/javascript>var baseurl="https:\/\/docs.water-gis.com\/ja";</script><script type=text/javascript src=/js/search.js?1608373302></script></div><div class=highlightable><ul class=topics><li data-nav-id=/ja/concept/ title=コンセプト class=dd-item><a href=/ja/concept/><b>1. </b>コンセプト</a></li><li data-nav-id=/ja/setups/ title=セットアップ class="dd-item
+parent"><a href=/ja/setups/><b>2. </b>セットアップ</a><ul><li data-nav-id=/ja/setups/preparation/ title=事前準備 class=dd-item><a href=/ja/setups/preparation/>事前準備</a><ul><li data-nav-id=/ja/setups/preparation/install_postgis/ title=PostgresSQL/PostGISデータベースのインストール class=dd-item><a href=/ja/setups/preparation/install_postgis/>PostgresSQL/PostGISデータベースのインストール</a></li><li data-nav-id=/ja/setups/preparation/data_collection/ title=データ収集と、データのPostGISへの投入 class=dd-item><a href=/ja/setups/preparation/data_collection/>データ収集と、データのPostGISへの投入</a></li><li data-nav-id=/ja/setups/preparation/install_docker/ title=Dockerのインストール class=dd-item><a href=/ja/setups/preparation/install_docker/>Dockerのインストール</a></li></ul></li><li data-nav-id=/ja/setups/installation/ title=インストール class=dd-item><a href=/ja/setups/installation/>インストール</a><ul><li data-nav-id=/ja/setups/installation/create_vt_repository/ title=ベクトルタイル用のリポジトリ作成 class=dd-item><a href=/ja/setups/installation/create_vt_repository/>ベクトルタイル用のリポジトリ作成</a></li><li data-nav-id=/ja/setups/installation/create_mbtiles/ title=PostGISからmbtilesを生成する class=dd-item><a href=/ja/setups/installation/create_mbtiles/>PostGISからmbtilesを生成する</a></li><li data-nav-id=/ja/setups/installation/design_stylefile/ title=Mapboxスタイルのデザイン class=dd-item><a href=/ja/setups/installation/design_stylefile/>Mapboxスタイルのデザイン</a></li><li data-nav-id=/ja/setups/installation/deploy_vectortiles/ title=ベクトルタイルのgh-pagesへのデプロイ class=dd-item><a href=/ja/setups/installation/deploy_vectortiles/>ベクトルタイルのgh-pagesへのデプロイ</a></li><li data-nav-id=/ja/setups/installation/deploy_stylefile_sprite/ title=Mapboxスタイルファイルとスプライトファイルのgh-pagesへのデプロイ class=dd-item><a href=/ja/setups/installation/deploy_stylefile_sprite/>Mapboxスタイルファイルとスプライトファイルのgh-pagesへのデプロイ</a></li><li data-nav-id=/ja/setups/installation/develop_mapbox_gl_js/ title=ウェブアプリの開発とデプロイ class=dd-item><a href=/ja/setups/installation/develop_mapbox_gl_js/>ウェブアプリの開発とデプロイ</a></li></ul></li><li data-nav-id=/ja/setups/terrain-rgb/ title="Terrain RGBタイルの利用" class="dd-item
+parent"><a href=/ja/setups/terrain-rgb/>Terrain RGBタイルの利用</a><ul><li data-nav-id=/ja/setups/terrain-rgb/create_terrainrgb/ title="DEMからTerrain RGBタイルを生成" class="dd-item
+parent
+active"><a href=/ja/setups/terrain-rgb/create_terrainrgb/>DEMからTerrain RGBタイルを生成</a></li><li data-nav-id=/ja/setups/terrain-rgb/host-terrainrgb-tiles/ title="Terrain RGBタイルをサーバーにホストする" class=dd-item><a href=/ja/setups/terrain-rgb/host-terrainrgb-tiles/>Terrain RGBタイルをサーバーにホストする</a></li><li data-nav-id=/ja/setups/terrain-rgb/utilize-on-mapboxgl/ title="Mapbox GL JSでTerrain RGBを活用する" class=dd-item><a href=/ja/setups/terrain-rgb/utilize-on-mapboxgl/>Mapbox GL JSでTerrain RGBを活用する</a></li></ul></li></ul></li><li data-nav-id=/ja/operation/ title=ベクトルタイルの運用 class=dd-item><a href=/ja/operation/><b>3. </b>ベクトルタイルの運用</a><ul><li data-nav-id=/ja/operation/automation_updating/ title=データ更新の自動化 class=dd-item><a href=/ja/operation/automation_updating/>データ更新の自動化</a></li><li data-nav-id=/ja/operation/costs/ title=コスト class=dd-item><a href=/ja/operation/costs/>コスト</a><ul><li data-nav-id=/ja/operation/costs/costs_ghpages/ title="GitHub Pagesのホスティングサービス" class=dd-item><a href=/ja/operation/costs/costs_ghpages/>GitHub Pagesのホスティングサービス</a></li><li data-nav-id=/ja/operation/costs/cost_basemaps/ title=サードパーティのベースマップの制限事項 class=dd-item><a href=/ja/operation/costs/cost_basemaps/>サードパーティのベースマップの制限事項</a></li></ul></li></ul></li><li data-nav-id=/ja/casestudies/ title=ケーススタディ class=dd-item><a href=/ja/casestudies/><b>4. </b>ケーススタディ</a><ul><li data-nav-id=/ja/casestudies/narok/ title=ケニア・ナロックウォーター class=dd-item><a href=/ja/casestudies/narok/>ケニア・ナロックウォーター</a></li><li data-nav-id=/ja/casestudies/wasac/ title=ルワンダ・WASAC class=dd-item><a href=/ja/casestudies/wasac/>ルワンダ・WASAC</a></li><li data-nav-id=/ja/casestudies/nakuru/ title=ケニア・ナクルウォーター class=dd-item><a href=/ja/casestudies/nakuru/>ケニア・ナクルウォーター</a></li><li data-nav-id=/ja/casestudies/nanyuki/ title=ケニア・ナニュキウォーター class=dd-item><a href=/ja/casestudies/nanyuki/>ケニア・ナニュキウォーター</a></li></ul></li><li data-nav-id=/ja/packages/ title=パッケージとライブラリ class=dd-item><a href=/ja/packages/><b>5. </b>パッケージとライブラリ</a></li><li data-nav-id=/ja/license/ title=ライセンス class=dd-item><a href=/ja/license/><b>6. </b>ライセンス</a></li></ul><section id=shortcuts><h3>更に</h3><ul><li><a class=padding href=https://github.com/watergis/docs><i class="fab fa-fw fa-github"></i>GitHubリポジトリ</a></li><li><a class=padding href=https://docs.water-gis.com/ja/showcase><i class="fas fa-fw fa-camera"></i>ショーケース</a></li><li><a class=padding href=https://docs.water-gis.com/ja/tools><i class="fas fa-tools"></i>サードパーティのツール</a></li><li><a class=padding href=https://docs.water-gis.com/ja/questions><i class="fas fa-question"></i>Q&A</a></li><li><a class=padding href=https://docs.water-gis.com/ja/credits><i class="fas fa-fw fa-bullhorn"></i>クレジット</a></li><li><a class=padding href=https://water-gis.com><i class="fas fa-address-card"></i>連絡先</a></li></ul></section><section id=prefooter><hr><ul><li><a class=padding><i class="fas fa-language fa-fw"></i><div class=select-style><select id=select-language onchange="location=this.value;">
+<option id=en value=https://docs.water-gis.com/en/setups/terrain-rgb/create_terrainrgb/>English</option>
+<option id=ja value=https://docs.water-gis.com/ja/setups/terrain-rgb/create_terrainrgb/ selected>日本語</option></select><svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255" height="255" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255"><g><g id="arrow-drop-down"><polygon points="0,63.75 127.5,191.25 255,63.75"/></g></g></svg></div></a></li></ul></section><section id=footer><center><a class=github-button href=https://github.com/watergis/docs data-icon=octicon-star data-show-count=true aria-label="Star watergis/docs on GitHub">Star</a>
+<a class=github-button href=https://github.com/watergis/docs/fork data-icon=octicon-repo-forked data-show-count=true aria-label="Fork watergis/docs on GitHub">Fork</a>
+<a class=github-button href=https://github.com/sponsors/JinIgarashi aria-label="Sponsor watergis OSS project on GitHub">Sponsor</a><p>Built with <a href=https://github.com/matcornic/hugo-theme-learn><i class="fas fa-heart"></i></a>from <a href=https://getgrav.org>Grav</a> and <a href=https://gohugo.io/>Hugo</a></p><p>Copyright © 2020 Jin IGARASHI</p></center><script async defer src=https://buttons.github.io/buttons.js></script></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div><div id=top-bar><div id=top-github-link><a class=github-link title=このページを編集 href=https://github.com/watergis/docs/edit/master/content/setups/terrain-rgb/create_terrainrgb/_index.ja.md target=blank><i class="fas fa-code-branch"></i><span id=top-github-link-text>このページを編集</span></a></div><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fas fa-bars"></i></a></span><span id=toc-menu><i class="fas fa-list-alt"></i></span><span class=links><a href=/ja/>GIS for Water</a> > <a href=/ja/setups/>セットアップ</a> > <a href=/ja/setups/terrain-rgb/>Terrain RGBタイルの利用</a> > DEMからTerrain RGBタイルを生成</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#1-demの座標系をepsg3857に変換する>1. DEMの座標系をEPSG:3857に変換する。</a></li><li><a href=#2-ローカルマシンにdem2terrainrgbツールをセットアップ>2. ローカルマシンに<code>dem2terrainrgb</code>ツールをセットアップ</a></li><li><a href=#3-terrain-rgbラスタタイルセットを生成する>3. Terrain RGBラスタタイルセットを生成する</a></li><li><a href=#4-terrain-rgbラスタタイルセットの確認>4. terrain RGBラスタタイルセットの確認</a></li><li><a href=#5-処理したファイルをチェックする>5. 処理したファイルをチェックする</a></li></ul></nav></div></div></div></div><div id=head-tags></div><div id=body-inner><h1>DEMからTerrain RGBタイルを生成</h1><p>このセクションでは、自組織が持っているDEMからTerrain RGBのラスタタイルセットを開発していきます。</p><p>ここでは、ルワンダのWASACが所有する10m精度のDEMを例として使っていきます。下のはQGISでルワンダのDEMを表示した際のイメージです。</p><p><img src=./rwanda-dem-qgis.png alt=rwanda-dem-qgis.png></p><h2 id=1-demの座標系をepsg3857に変換する>1. DEMの座標系をEPSG:3857に変換する。</h2><p>まず、DEMの座標系をウェブメルカトル（EPSG:3857）にQGISやGDALなどのツールで変換する必要があります。</p><h2 id=2-ローカルマシンにdem2terrainrgbツールをセットアップ>2. ローカルマシンに<code>dem2terrainrgb</code>ツールをセットアップ</h2><p>DEMをTerrain RGBに変換するには次のようなことをするいくつかのコマンドを実行する必要があります。</p><ul><li>No Dataに値を設定する。</li><li>DEMデータをRGB化する</li><li>ラスタタイルセットを作る</li></ul><p>しかし既にDEMからTerrain RGBタイルを作るシンプルなPythonスクリプトを作っていますのでご心配なく。このツールをインストールする前に、<code>Python3.9</code>と<code>GDAL3.2.0</code>がマシンにインストールされているかをチェックしてください。</p><p>インストールは以下のようなコマンドを実行するだけです。</p><pre><code>git clone https://github.com/watergis/dem2terrainrgb.git
+cd dem2terrainrgb
+pipenv install
+</code></pre><p><code>data</code>フォルダにDEMファイルをおきましょう。</p><pre><code>mkdir data
+mv ~/rwanda_dem_EPSG3857_10m.tif data/.
+</code></pre><h2 id=3-terrain-rgbラスタタイルセットを生成する>3. Terrain RGBラスタタイルセットを生成する</h2><p>いよいよ、DEMをタイルセットに変換するツールを実行します。</p><pre><code>pipenv shell
+python main.py --dem ./data/rwanda_dem_EPSG3857_10m.tif --dist ./tiles
+</code></pre><p>Terrain RGBラスタタイルセットは通常ズームレベル5から15の間で生成されます。この処理は少し時間がかかる可能性があります。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>filled NODATA value successfully: ./tmp/rwanda_dem_EPSG3857_10m_without_nodata.tif
+rgbified successfully: ./tmp/rwanda_dem_EPSG3857_10m_RGB.tif
+created tileset successfully: ./tiles
+</code></pre></div><p>処理が終わると、ラスタタイルセットが<code>tiles</code>フォルダにできているはずです。</p><p>しかしながら、次のステップに行く前にまず不要な<code>*.xml</code>ファイルを全て次のコマンドで削除しておきます。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>find ./tiles -name <span style=color:#e6db74>&#34;*.xml&#34;</span> -exec bash -c <span style=color:#e6db74>&#39;rm &#34;$1&#34;&#39;</span> - <span style=color:#e6db74>&#39;{}&#39;</span> <span style=color:#ae81ff>\;</span>
+</code></pre></div><h2 id=4-terrain-rgbラスタタイルセットの確認>4. terrain RGBラスタタイルセットの確認</h2><p>全てのタイルは<code>tiles</code>フォルダにできているはずです。</p><p><img src=./rwanda-tiles-finder.png alt=rwanda-tiles-finder.png></p><p>GDAL2tilesはLeafletとOpenlayersのサンプルソースコードも生成します。 <code>openlayers.html</code>をダブルクリックしてブラウザでタイルを確認してみます。</p><p><img src=./rwanda-tiles-openlayers.png alt=rwanda-tiles-openlayers.png></p><h2 id=5-処理したファイルをチェックする>5. 処理したファイルをチェックする</h2><p>このツールを使うと2つのTiffファイルが<code>tmp</code>フォルダに保存されます。まずこれらのファイルがちゃんとできているかチェックしてみます。</p><ul><li><code>rwanda_dem_EPSG3857_10m_without_nodata.tif</code>の確認</li></ul><p>このGeoTiff画像はNo Dataの値を埋めたものです。</p><pre><code>$ rio info --indent 2 ./tmp/rwanda_dem_EPSG3857_10m_without_nodata.tif
+</code></pre><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
+  <span style=color:#f92672>&#34;blockxsize&#34;</span>: <span style=color:#ae81ff>256</span>,
+  <span style=color:#f92672>&#34;blockysize&#34;</span>: <span style=color:#ae81ff>256</span>,
+  <span style=color:#f92672>&#34;bounds&#34;</span>: [
+    <span style=color:#ae81ff>3223733.0877</span>,
+    <span style=color:#ae81ff>-316437.17616185057</span>,
+    <span style=color:#ae81ff>3439718.7685284764</span>,
+    <span style=color:#ae81ff>-115768.6321</span>
+  ],
+  <span style=color:#f92672>&#34;colorinterp&#34;</span>: [
+    <span style=color:#e6db74>&#34;gray&#34;</span>
+  ],
+  <span style=color:#f92672>&#34;compress&#34;</span>: <span style=color:#e6db74>&#34;deflate&#34;</span>,
+  <span style=color:#f92672>&#34;count&#34;</span>: <span style=color:#ae81ff>1</span>,
+  <span style=color:#f92672>&#34;crs&#34;</span>: <span style=color:#e6db74>&#34;EPSG:3857&#34;</span>,
+  <span style=color:#f92672>&#34;descriptions&#34;</span>: [
+    <span style=color:#66d9ef>null</span>
+  ],
+  <span style=color:#f92672>&#34;driver&#34;</span>: <span style=color:#e6db74>&#34;GTiff&#34;</span>,
+  <span style=color:#f92672>&#34;dtype&#34;</span>: <span style=color:#e6db74>&#34;uint16&#34;</span>,
+  <span style=color:#f92672>&#34;height&#34;</span>: <span style=color:#ae81ff>19992</span>,
+  <span style=color:#f92672>&#34;indexes&#34;</span>: [
+    <span style=color:#ae81ff>1</span>
+  ],
+  <span style=color:#f92672>&#34;interleave&#34;</span>: <span style=color:#e6db74>&#34;band&#34;</span>,
+  <span style=color:#f92672>&#34;lnglat&#34;</span>: [
+    <span style=color:#ae81ff>29.92940323722318</span>,
+    <span style=color:#ae81ff>-1.9409140983431143</span>
+  ],
+  <span style=color:#f92672>&#34;mask_flags&#34;</span>: [
+    [
+      <span style=color:#e6db74>&#34;all_valid&#34;</span>
+    ]
+  ],
+  <span style=color:#f92672>&#34;nodata&#34;</span>: <span style=color:#66d9ef>null</span>,
+  <span style=color:#f92672>&#34;res&#34;</span>: [
+    <span style=color:#ae81ff>10.037442179964515</span>,
+    <span style=color:#ae81ff>10.037442179964515</span>
+  ],
+  <span style=color:#f92672>&#34;shape&#34;</span>: [
+    <span style=color:#ae81ff>19992</span>,
+    <span style=color:#ae81ff>21518</span>
+  ],
+  <span style=color:#f92672>&#34;tiled&#34;</span>: <span style=color:#66d9ef>true</span>,
+  <span style=color:#f92672>&#34;transform&#34;</span>: [
+    <span style=color:#ae81ff>10.037442179964515</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>3223733.0877</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>-10.037442179964515</span>,
+    <span style=color:#ae81ff>-115768.6321</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>1.0</span>
+  ],
+  <span style=color:#f92672>&#34;units&#34;</span>: [
+    <span style=color:#66d9ef>null</span>
+  ],
+  <span style=color:#f92672>&#34;width&#34;</span>: <span style=color:#ae81ff>21518</span>
+}
+</code></pre></div><ul><li><code>rwanda_dem_EPSG3857_10m_RGB.tif</code>の確認</li></ul><p>このGeoTiff画像はRaster IOモジュールによってRGB化されたものです。下のコマンドでチェックできます。</p><pre><code>$ rio info --indent 2 ./tmp/rwanda_dem_EPSG3857_10m_RGB.tif
+</code></pre><p>3バンドの色ができていることが確認できます。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
+  <span style=color:#f92672>&#34;blockxsize&#34;</span>: <span style=color:#ae81ff>256</span>,
+  <span style=color:#f92672>&#34;blockysize&#34;</span>: <span style=color:#ae81ff>256</span>,
+  <span style=color:#f92672>&#34;bounds&#34;</span>: [
+    <span style=color:#ae81ff>3223733.0877</span>,
+    <span style=color:#ae81ff>-316437.17616185057</span>,
+    <span style=color:#ae81ff>3439718.7685284764</span>,
+    <span style=color:#ae81ff>-115768.6321</span>
+  ],
+  <span style=color:#f92672>&#34;colorinterp&#34;</span>: [
+    <span style=color:#e6db74>&#34;red&#34;</span>,
+    <span style=color:#e6db74>&#34;green&#34;</span>,
+    <span style=color:#e6db74>&#34;blue&#34;</span>
+  ],
+  <span style=color:#f92672>&#34;compress&#34;</span>: <span style=color:#e6db74>&#34;deflate&#34;</span>,
+  <span style=color:#f92672>&#34;count&#34;</span>: <span style=color:#ae81ff>3</span>,
+  <span style=color:#f92672>&#34;crs&#34;</span>: <span style=color:#e6db74>&#34;EPSG:3857&#34;</span>,
+  <span style=color:#f92672>&#34;descriptions&#34;</span>: [
+    <span style=color:#66d9ef>null</span>,
+    <span style=color:#66d9ef>null</span>,
+    <span style=color:#66d9ef>null</span>
+  ],
+  <span style=color:#f92672>&#34;driver&#34;</span>: <span style=color:#e6db74>&#34;GTiff&#34;</span>,
+  <span style=color:#f92672>&#34;dtype&#34;</span>: <span style=color:#e6db74>&#34;uint8&#34;</span>,
+  <span style=color:#f92672>&#34;height&#34;</span>: <span style=color:#ae81ff>19992</span>,
+  <span style=color:#f92672>&#34;indexes&#34;</span>: [
+    <span style=color:#ae81ff>1</span>,
+    <span style=color:#ae81ff>2</span>,
+    <span style=color:#ae81ff>3</span>
+  ],
+  <span style=color:#f92672>&#34;interleave&#34;</span>: <span style=color:#e6db74>&#34;band&#34;</span>,
+  <span style=color:#f92672>&#34;lnglat&#34;</span>: [
+    <span style=color:#ae81ff>29.92940323722318</span>,
+    <span style=color:#ae81ff>-1.9409140983431143</span>
+  ],
+  <span style=color:#f92672>&#34;mask_flags&#34;</span>: [
+    [
+      <span style=color:#e6db74>&#34;all_valid&#34;</span>
+    ],
+    [
+      <span style=color:#e6db74>&#34;all_valid&#34;</span>
+    ],
+    [
+      <span style=color:#e6db74>&#34;all_valid&#34;</span>
+    ]
+  ],
+  <span style=color:#f92672>&#34;nodata&#34;</span>: <span style=color:#66d9ef>null</span>,
+  <span style=color:#f92672>&#34;res&#34;</span>: [
+    <span style=color:#ae81ff>10.037442179964515</span>,
+    <span style=color:#ae81ff>10.037442179964515</span>
+  ],
+  <span style=color:#f92672>&#34;shape&#34;</span>: [
+    <span style=color:#ae81ff>19992</span>,
+    <span style=color:#ae81ff>21518</span>
+  ],
+  <span style=color:#f92672>&#34;tiled&#34;</span>: <span style=color:#66d9ef>true</span>,
+  <span style=color:#f92672>&#34;transform&#34;</span>: [
+    <span style=color:#ae81ff>10.037442179964515</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>3223733.0877</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>-10.037442179964515</span>,
+    <span style=color:#ae81ff>-115768.6321</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>0.0</span>,
+    <span style=color:#ae81ff>1.0</span>
+  ],
+  <span style=color:#f92672>&#34;units&#34;</span>: [
+    <span style=color:#66d9ef>null</span>,
+    <span style=color:#66d9ef>null</span>,
+    <span style=color:#66d9ef>null</span>
+  ],
+  <span style=color:#f92672>&#34;width&#34;</span>: <span style=color:#ae81ff>21518</span>
+}
+</code></pre></div><p>QGISでRGB化したGeoTiffを追加すると下のように表示されるでしょう。</p><p><img src=./rwanda-rgbify-qgis.png alt=rwanda-rgbify-qgis></p><p>ある特定の座標でバンド値から標高を計算してみることもできます。</p><p>標高を計算する式は次のようになります。</p><pre><code>height = -10000 + ((R * 256 * 256 + G * 256 + B) * 0.1)
+</code></pre><p><code>gdallocationinfo</code>を使って座標のバンド値を調べられます。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ gdallocationinfo -wgs84 ./tmp/rwanda_dem_EPSG3857_10m_RGB.tif 29.7363 -2.2313
+Report:
+  Location: <span style=color:#f92672>(</span>8617P,13218L<span style=color:#f92672>)</span>
+  Band 1:
+    Value: <span style=color:#ae81ff>1</span>
+  Band 2:
+    Value: <span style=color:#ae81ff>199</span>
+  Band 3:
+    Value: <span style=color:#ae81ff>250</span>
+<span style=color:#f92672>(</span>rwanda_terrain<span style=color:#f92672>)</span>
+</code></pre></div><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=/ja/setups/terrain-rgb/ title="Terrain RGBタイルの利用"><i class="fa fa-chevron-left"></i></a><a class="nav nav-next" href=/ja/setups/terrain-rgb/host-terrainrgb-tiles/ title="Terrain RGBタイルをサーバーにホストする" style=margin-right:0><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=/js/clipboard.min.js?1608373302></script><script src=/js/perfect-scrollbar.min.js?1608373302></script><script src=/js/perfect-scrollbar.jquery.min.js?1608373302></script><script src=/js/jquery.sticky.js?1608373302></script><script src=/js/featherlight.min.js?1608373302></script><script src=/js/highlight.pack.js?1608373302></script><script>hljs.initHighlightingOnLoad();</script><script src=/js/modernizr.custom-3.6.0.js?1608373302></script><script src=/js/learn.js?1608373302></script><script src=/js/hugo-learn.js?1608373302></script><link href=/mermaid/mermaid.css?1608373302 rel=stylesheet><script src=/mermaid/mermaid.js?1608373302></script><script>mermaid.initialize({startOnLoad:true});</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-170080825-6','auto');ga('send','pageview');</script></body></html>
