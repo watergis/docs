@@ -128,8 +128,6 @@ If you want to add `sky` layer, just add it to `layers` section of `style.json`.
 ]
 ```
 
-{{< mbgljs-v2-3d >}}
-
 See demo from [here](https://wasac.github.io/mapboxgljs-v2/#14.05/-1.94034/30.04433/-17.6/71). Change style to `terrain` for 3D view.
 
 Note. recently Mapbox GL JS changed their license from BSD to proprietary license. If your app's usage exceeds their free tier program, Mapbox will charge you some fees according to your usage.

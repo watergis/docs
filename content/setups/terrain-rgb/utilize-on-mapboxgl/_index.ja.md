@@ -128,8 +128,6 @@ map.addControl(new MapboxElevationControl(
 ]
 ```
 
-{{< mbgljs-v2-3d >}}
-
 [こちら](https://wasac.github.io/mapboxgljs-v2/#14.05/-1.94034/30.04433/-17.6/71)からデモサイトを見れます。スタイルを`terrain`に変更して3Dビューにできます。 
 
 **注意!** 最近、Mapbox GL JSはライセンスをBSDからプロプライエタリなものに変更しました。もしアプリが無償の利用枠を超えてしまった場合、Mapboxの利用料金がかかってしまう可能性があります。
