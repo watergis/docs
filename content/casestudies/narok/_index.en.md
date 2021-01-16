@@ -17,6 +17,15 @@ weight: 41
 https://narwassco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
+#### Terrain RGB raster tileset
+```
+https://narwassco.github.io/rw-terrain/tiles/{z}/{x}/{y}.png
+```
+
+- available zoom level: 5 - 15
+- tile size: 512
+- it was made from 10m DEM which is generated from SRTM.
+
 #### Stylefiles
 - Mapbox Street
 ```

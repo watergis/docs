@@ -17,6 +17,15 @@ weight: 41
 https://narwassco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
+#### Terrain RGBラスタタイルセット
+```
+https://narwassco.github.io/rw-terrain/tiles/{z}/{x}/{y}.png
+```
+
+- 利用可能なズームレベル: 5 - 15
+- タイルサイズ: 512
+- SRTMのデータから作成されました。
+
 #### スタイルファイル
 - Mapbox Street
 ```

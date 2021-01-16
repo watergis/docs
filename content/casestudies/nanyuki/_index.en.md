@@ -3,7 +3,7 @@ title: Nanyuki Water, Kenya
 weight: 43
 ---
 
-- [Water Supply Map for Nanyuki Water, KENYA](https://nawasco.github.io/mapboxgljs/)
+- [Water Supply Map for Nanyuki Water, KENYA](https://new.nawascogis.co.ke/)
 - since 25th September 2020.
 
 {{< nanyukiwater_map >}}
