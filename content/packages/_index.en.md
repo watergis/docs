@@ -38,3 +38,6 @@ All of libraries are in [Github](https://github.com/watergis) under **MIT** lice
 - [watergis/dem2terrainrgb](https://github.com/watergis/dem2terrainrgb): a python module to convert DEM to terrain RGB raster tiles.
 - [watergis/terrain-rgb](https://github.com/watergis/terrain-rgb): a typescript module to extract elevation from terrain RGB tilesets by longitude and latitude.
 
+#### 5. Software for Elasticsearch
+- [watergis/es_tileserv](https://github.com/watergis/es_tileserv): a simple vector tile server which is served from Elasticsearch.
+- [watergis/elastic2mvt](https://github.com/watergis/elastic2mvt):  a Nodejs module that generate Mapbox vector tiles from Elasticsearch.

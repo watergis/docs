@@ -14,6 +14,8 @@ This chapter will show you the license of our open source projects
 All of libraries are under **MIT** license.
 {{% /notice %}}
 
+Note. However, some repositories which were forked might be different license from MIT, so please follow license file under the repository.
+
 #### 2. License of vectortiles and raster tiles data
 {{% notice info %}}
 These vectortiles and raster tiles are licensed under a [Creative Commons Attribution 4.0 International

@@ -37,3 +37,7 @@ chapter: true
 #### 4. 標高関係のソフトウェア
 - [watergis/dem2terrainrgb](https://github.com/watergis/dem2terrainrgb): DEMをTerrain RGBのラスタタイルセットに変換するPythonモジュール
 - [watergis/terrain-rgb](https://github.com/watergis/terrain-rgb): 指定した緯度経度でTerrain RGBのラスタタイルセットから標高を取得するTypescriptのモジュール
+
+#### 5. Elasticsearch関係のソフトウェア
+- [watergis/es_tileserv](https://github.com/watergis/es_tileserv): Elasticsearchからベクトルタイルを配信するシンプルなタイルサーバー
+- [watergis/elastic2mvt](https://github.com/watergis/elastic2mvt):  ElasticsearchからMapboxベクトルタイルを生成するNodejsモジュール
