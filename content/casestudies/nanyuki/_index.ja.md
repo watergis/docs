@@ -18,23 +18,23 @@ https://nawasco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
 #### スタイルファイル
-- Mapbox Street(clean water)
+- Mapbox Street(clean water) ([maputnik editor](https://maputnik.github.io/editor?style=https://nawasco.github.io/mapbox-stylefiles/street/style.json))
 ```
 https://nawasco.github.io/mapbox-stylefiles/street/style.json
 ```
-- Mapbox Satellite(clean water)
+- Mapbox Satellite(clean water) ([maputnik editor](https://maputnik.github.io/editor?style=https://nawasco.github.io/mapbox-stylefiles/satellite/style.json))
 ```
 https://nawasco.github.io/mapbox-stylefiles/satellite/style.json
 ```
-- Mapbox Street(sewer)
+- Mapbox Street(sewer) ([maputnik editor](https://maputnik.github.io/editor?style=https://nawasco.github.io/mapbox-stylefiles/street/style_sewer.json))
 ```
 https://nawasco.github.io/mapbox-stylefiles/street/style_sewer.json
 ```
-- Mapbox Satellite(sewer)
+- Mapbox Satellite(sewer) ([maputnik editor](https://maputnik.github.io/editor?style=https://nawasco.github.io/mapbox-stylefiles/satellite/style_sewer.json))
 ```
 https://nawasco.github.io/mapbox-stylefiles/satellite/style_sewer.json
 ```
-- UNVT (combined water and sewer)
+- UNVT (combined water and sewer) ([maputnik editor](https://maputnik.github.io/editor?style=https://nawasco.github.io/mapbox-stylefiles/unvt/style.json))
 ```
 https://nawasco.github.io/mapbox-stylefiles/unvt/style.json
 ```

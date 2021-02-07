@@ -34,19 +34,19 @@ https://wasac.github.io/rw-terrain/tiles/{z}/{x}/{y}.png
 - it was made from 10m DEM which is owned by WASAC.
 
 #### Stylefiles
-- Mapbox Street
+- Mapbox Street ([maputnik editor](https://maputnik.github.io/editor?style=https://wasac.github.io/mapbox-stylefiles/street/style.json))
 ```
 https://wasac.github.io/mapbox-stylefiles/street/style.json
 ```
-- Mapbox Satellite
+- Mapbox Satellite ([maputnik editor](https://maputnik.github.io/editor?style=https://wasac.github.io/mapbox-stylefiles/satellite/style.json))
 ```
 https://wasac.github.io/mapbox-stylefiles/satellite/style.json
 ```
-- UNVT
+- UNVT ([maputnik editor](https://maputnik.github.io/editor?style=https://wasac.github.io/mapbox-stylefiles/unvt/style.json))
 ```
 https://wasac.github.io/mapbox-stylefiles/unvt/style.json
 ```
-- Terrain
+- Terrain ([maputnik editor](https://maputnik.github.io/editor?style=https://wasac.github.io/mapbox-stylefiles/terrain/style.json))
 ```
 https://wasac.github.io/mapbox-stylefiles/terrain/style.json
 ```

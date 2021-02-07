@@ -18,15 +18,15 @@ https://nakuruwater.github.io/vt/tiles/{z}/{x}/{y}.mvt
 ```
 
 #### スタイルファイル
-- Mapbox Street
+- Mapbox Street ([maputnik editor](https://maputnik.github.io/editor?style=https://nakuruwater.github.io/mapbox-stylefiles/street/style.json))
 ```
 https://nakuruwater.github.io/mapbox-stylefiles/street/style.json
 ```
-- Mapbox Satellite
+- Mapbox Satellite ([maputnik editor](https://maputnik.github.io/editor?style=https://nakuruwater.github.io/mapbox-stylefiles/satellite/style.json))
 ```
 https://nakuruwater.github.io/mapbox-stylefiles/satellite/style.json
 ```
-- UNVT
+- UNVT ([maputnik editor](https://maputnik.github.io/editor?style=https://nakuruwater.github.io/mapbox-stylefiles/unvt/style.json))
 ```
 https://nakuruwater.github.io/mapbox-stylefiles/unvt/style.json
 ```

@@ -27,15 +27,15 @@ https://narwassco.github.io/rw-terrain/tiles/{z}/{x}/{y}.png
 - SRTMのデータから作成されました。
 
 #### スタイルファイル
-- Mapbox Street
+- Mapbox Street ([maputnik editor](https://maputnik.github.io/editor?style=https://narwassco.github.io/mapbox-stylefiles/street/style.json))
 ```
 https://narwassco.github.io/mapbox-stylefiles/street/style.json
 ```
-- Mapbox Satellite
+- Mapbox Satellite ([maputnik editor](https://maputnik.github.io/editor?style=https://narwassco.github.io/mapbox-stylefiles/satellite/style.json))
 ```
 https://narwassco.github.io/mapbox-stylefiles/satellite/style.json
 ```
-- UNVT
+- UNVT ([maputnik editor](https://maputnik.github.io/editor?style=https://narwassco.github.io/mapbox-stylefiles/unvt/style.json))
 ```
 https://narwassco.github.io/mapbox-stylefiles/unvt/style.json
 ```
