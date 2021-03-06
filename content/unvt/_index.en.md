@@ -9,7 +9,7 @@ chapter: true
 
 This chapter will show how you can establish completely free OSM based map by using [United Nations Vector Tiles Toolkits (UNVT)](https://github.com/unvt). In Rwanda and Kenya, we are using UNVT as one of base maps which is completeley license free's map generated from Open Street Map.
 
-If you are suffering the payment for Google Map, Mapbox, Maptiler or any other map services providers, UNVT would be the great tool for your organization.
+If you are suffering for the payment for Google Map, Mapbox, Maptiler or any other map services providers, UNVT would be the great tool for your organization.
 
 #### Hosting UNVT map for a country on Github pages
 
