@@ -19,6 +19,7 @@ All of libraries are in [Github](https://github.com/watergis) under **MIT** lice
 - [watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export): add a simple control that exports a map as PNG or PDF.
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): add a simple 3D button to change between 3D and 2D
 - [watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation): adds elevation control to mapbox-gl. It relys on terrain RGB raster tilesets.
+- [watergis/mapbox-gl-valhalla](https://github.com/watergis/mapbox-gl-valhalla): adds a control which can integrate with valhalla api.
 
 #### 2. Software for Vectortiles
 - [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): a template to create vectortiles from PostGIS and deploy it to Github pages.

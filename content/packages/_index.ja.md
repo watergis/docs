@@ -19,6 +19,7 @@ chapter: true
 - [watergis/mapbox-gl-print](https://github.com/watergis/mapbox-gl-print): PNGとPDFに出力できるシンプルな印刷用コントロール
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): 3Dと2Dを切り替えるシンプルな3Dボタンを追加します
 - [watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation): Mapbox GL JSに標高取得ツールを追加します。Terrain RGBタイルセットに依存するプラグインです。
+- [watergis/mapbox-gl-valhalla](https://github.com/watergis/mapbox-gl-valhalla): ValhallaのAPIに対応したコントロールを追加するプラグインです。
 
 #### 2. ベクトルタイル関係のソフトウェア
 - [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): PostGISからベクトルタイルを生成しGithubページにデプロイするテンプレート
