@@ -13,10 +13,10 @@ chapter: true
 
 #### 1. Mapbox GL JSクライアント関係のモジュール
 - [watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate): 水道事業体向けにMapbox GL JSの実装を既に行い、全てのカスタマイズされたプラグインを含んだテンプレートです。 
-- [watergis/mapbox-gl-legend](https://github.com/watergis/mapbox-gl-legend): シンプルな凡例を追加するコントロール
+- [watergis/mapbox-gl-legend](https://github.com/watergis/mapbox-gl-legend): シンプルな凡例を追加するコントロール。サンプルは[こちら](./mapbox-gl-legend)。
 - [watergis/mapbox-gl-area-switcher](https://github.com/watergis/mapbox-gl-area-switcher): エリアを簡単に切り替えるシンプルなコントロール
 - [watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup): Mapbox GL JSにシンプルなポップアップを追加します
-- [watergis/mapbox-gl-print](https://github.com/watergis/mapbox-gl-print): PNGとPDFに出力できるシンプルな印刷用コントロール
+- [watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export): PNGとPDFに出力できるシンプルな印刷用コントロール。サンプルは[こちら](./mapbox-gl-export)。
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): 3Dと2Dを切り替えるシンプルな3Dボタンを追加します
 - [watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation): Mapbox GL JSに標高取得ツールを追加します。Terrain RGBタイルセットに依存するプラグインです。
 - [watergis/mapbox-gl-valhalla](https://github.com/watergis/mapbox-gl-valhalla): ValhallaのAPIに対応したコントロールを追加するプラグインです。

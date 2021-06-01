@@ -13,10 +13,10 @@ All of libraries are in [Github](https://github.com/watergis) under **MIT** lice
 
 #### 1. Software for Mapbox GL JS client
 - [watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate): This is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins.
-- [watergis/mapbox-gl-legend](https://github.com/watergis/mapbox-gl-legend): Add a simple control that can generate a legend from map style
+- [watergis/mapbox-gl-legend](https://github.com/watergis/mapbox-gl-legend): Add a simple control that can generate a legend from map style. see example [here](./mapbox-gl-legend).
 - [watergis/mapbox-gl-area-switcher](https://github.com/watergis/mapbox-gl-area-switcher): Add a simple control to switch area easier
 - [watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup): add a simple popup into Mapbox GL JS.
-- [watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export): add a simple control that exports a map as PNG or PDF.
+- [watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export): add a simple control that exports a map as PNG or PDF. see example [here](./mapbox-gl-export).
 - [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): add a simple 3D button to change between 3D and 2D
 - [watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation): adds elevation control to mapbox-gl. It relys on terrain RGB raster tilesets.
 - [watergis/mapbox-gl-valhalla](https://github.com/watergis/mapbox-gl-valhalla): adds a control which can integrate with valhalla api.
