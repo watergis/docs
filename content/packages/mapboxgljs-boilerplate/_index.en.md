@@ -5,7 +5,7 @@ weight: 58
 
 ### [watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate)
 
-add a simple 3D button to change between 3D and 2D.
+This is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins.
 
 ### Examples
 
