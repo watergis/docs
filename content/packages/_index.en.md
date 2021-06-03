@@ -22,7 +22,7 @@ All of libraries are in [Github](https://github.com/watergis) under **MIT** lice
 |[watergis/mapbox-gl-area-switcher](https://github.com/watergis/mapbox-gl-area-switcher)|[demo](./mapbox-gl-area-switcher)| Add a simple control to switch area easier.|
 |[watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup)|[demo](./mapbox-gl-popup)| add a simple popup into Mapbox GL JS.|
 |[watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control)|[demo](./mapbox-gl-pitch-toggle-control)| add a simple 3D button to change between 3D and 2D.|
-|[watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate)|| This is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins.|
+|[watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate)|[demo](./mapboxgljs-boilerplate)| This is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins.|
 #### 2. Software for Vectortiles
 - [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): a template to create vectortiles from PostGIS and deploy it to Github pages.
 - [watergis/postgis2geojson](https://github.com/watergis/postgis2geojson): a module to extract GeoJSON directly from PostGIS.

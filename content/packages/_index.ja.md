@@ -22,7 +22,7 @@ chapter: true
 |[watergis/mapbox-gl-area-switcher](https://github.com/watergis/mapbox-gl-area-switcher)|[demo](./mapbox-gl-area-switcher)| エリアを簡単に切り替えるシンプルなコントロール|
 |[watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup)|[demo](./mapbox-gl-popup)| Mapbox GL JSにシンプルなポップアップを追加します|
 |[watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control)|[demo](./mapbox-gl-pitch-toggle-control)| 3Dと2Dを切り替えるシンプルな3Dボタンを追加します|
-|[watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate)|| 水道事業体向けにMapbox GL JSの実装を既に行い、全てのカスタマイズされたプラグインを含んだテンプレートです。|
+|[watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate)|[demo](./mapboxgljs-boilerplate)| 水道事業体向けにMapbox GL JSの実装を既に行い、全てのカスタマイズされたプラグインを含んだテンプレートです。|
 
 #### 2. ベクトルタイル関係のソフトウェア
 - [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): PostGISからベクトルタイルを生成しGithubページにデプロイするテンプレート
