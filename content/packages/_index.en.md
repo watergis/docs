@@ -12,15 +12,17 @@ This chapter will show you the list of our open source projects.
 All of libraries are in [Github](https://github.com/watergis) under **MIT** license.
 
 #### 1. Software for Mapbox GL JS client
-- [watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate): This is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins.
-- [watergis/mapbox-gl-legend](https://github.com/watergis/mapbox-gl-legend): Add a simple control that can generate a legend from map style. see example [here](./mapbox-gl-legend).
-- [watergis/mapbox-gl-area-switcher](https://github.com/watergis/mapbox-gl-area-switcher): Add a simple control to switch area easier
-- [watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup): add a simple popup into Mapbox GL JS.
-- [watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export): add a simple control that exports a map as PNG or PDF. see example [here](./mapbox-gl-export).
-- [watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control): add a simple 3D button to change between 3D and 2D
-- [watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation): adds elevation control to mapbox-gl. It relys on terrain RGB raster tilesets.
-- [watergis/mapbox-gl-valhalla](https://github.com/watergis/mapbox-gl-valhalla): adds a control which can integrate with valhalla api.
 
+| plugin | demo | description |
+|---|---|---|
+|[watergis/mapbox-gl-export](https://github.com/watergis/mapbox-gl-export)| [demo](./mapbox-gl-export)|add a simple control that exports a map as PNG or PDF|
+|[watergis/mapbox-gl-legend](https://github.com/watergis/mapbox-gl-legend)| [demo](./mapbox-gl-legend)|add a simple control that can generate a legend from map style.|
+|[watergis/mapbox-gl-elevation](https://github.com/watergis/mapbox-gl-elevation)| [demo](./mapbox-gl-elevation)|adds elevation control to mapbox-gl. It relys on terrain RGB raster tilesets.|
+|[watergis/mapbox-gl-valhalla](https://github.com/watergis/mapbox-gl-valhalla)| [demo](./mapbox-gl-valhalla)|adds a control which can integrate with valhalla api.|
+|[watergis/mapbox-gl-area-switcher](https://github.com/watergis/mapbox-gl-area-switcher)|[demo](./mapbox-gl-area-switcher)| Add a simple control to switch area easier.|
+|[watergis/mapbox-gl-popup](https://github.com/watergis/mapbox-gl-popup)|[demo](./mapbox-gl-popup)| add a simple popup into Mapbox GL JS.|
+|[watergis/mapbox-gl-pitch-toggle-control](https://github.com/watergis/mapbox-gl-pitch-toggle-control)|[demo](./mapbox-gl-pitch-toggle-control)| add a simple 3D button to change between 3D and 2D.|
+|[watergis/mapboxgljs-boilerplate](https://github.com/watergis/mapboxgljs-boilerplate)|| This is the template of Mapbox GL JS implementation for Water Services Providers with all of customized plugins.|
 #### 2. Software for Vectortiles
 - [watergis/vt-boilerplate](https://github.com/watergis/vt-boilerplate): a template to create vectortiles from PostGIS and deploy it to Github pages.
 - [watergis/postgis2geojson](https://github.com/watergis/postgis2geojson): a module to extract GeoJSON directly from PostGIS.
