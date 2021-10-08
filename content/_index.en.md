@@ -24,6 +24,6 @@ Our vector tiles approach uses Github pages without servers. I know it is quite 
 See our case studies of actual water services providers in Africa from [Case Studies](./casestudies).
 
 ## Contribution to this Open Source Project
-This vectortiles tools were developed and are maintained by [Jin IGARASHI](https://water-gis.com). 
+This vectortiles tools were developed and are maintained by [Jin IGARASHI](https://jin-igarashi.me/en). 
 
 Please let me know through Github's issues or pull request if you have any feedbacks. Also, if you like my GIS works for water services providers in Africa, please support this project through [Github Sponsor](https://github.com/sponsors/JinIgarashi).

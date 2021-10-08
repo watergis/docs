@@ -8,7 +8,7 @@ disableToc: true
 Thanks to them for making Open Source Software a better place !
 
 And a special thanks to the below contributors.
-- [@JinIgarashi](https://github.com/JinIgarashi) for his work on [watergis](https://github.com/watergis)
+- [@JinIgarashi](https://jin-igarashi.me) for his work on [watergis](https://github.com/watergis)
 - [United Nation Open GIS Initiative](http://unopengis.org/)'s [UN Vector Tile Toolkit](https://github.com/unvt) to support us technically.
 
 ### Maintenance of Vectortiles data

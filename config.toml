@@ -53,7 +53,7 @@ weight = 30
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-address-card'></i> Contacts"
 identifier = "ds"
-url = "https://water-gis.com"
+url = "https://jin-igarashi.me/en"
 weight = 40
 
 [Languages.ja]
@@ -89,5 +89,5 @@ weight = 30
 [[Languages.ja.menu.shortcuts]]
 name = "<i class='fas fa-address-card'></i> 連絡先"
 identifier = "ds"
-url = "https://water-gis.com"
+url = "https://jin-igarashi.me/ja"
 weight = 40

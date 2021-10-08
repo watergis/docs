@@ -24,6 +24,6 @@ title: "GIS for Water"
 [ケーススタディ](./casestudies)のページから実際のアフリカの水道事業体での事例についてご覧ください。
 
 ## このオープンソースプロジェクトへのコントリビューション
-このベクトルタイルツールは [Jin IGARASHI](https://water-gis.com)により開発・メンテナンスされています。
+このベクトルタイルツールは [Jin IGARASHI](https://jin-igarashi.me/ja)により開発・メンテナンスされています。
 
 ツールに対してフィードバックなどありましたら、Githubのイシューやプルリクエストなどを通してご協力いただければと思います。また、もしアフリカの水道事業体向けのこのGIS活動にご賛同いただけましたら、[Githubスポンサー](https://github.com/sponsors/JinIgarashi)を通してご支援いただければ助かります。

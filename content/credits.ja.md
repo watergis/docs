@@ -7,7 +7,7 @@ disableToc: true
 
 このオープンソースプロジェクトの開発にあたり以下の方に感謝します!
 
-- [@JinIgarashi](https://github.com/JinIgarashi)の[watergis](https://github.com/watergis)での開発
+- [@JinIgarashi](https://jin-igarashi.me)の[watergis](https://github.com/watergis)での開発
 - [国連Open GISイニシアチブ](http://unopengis.org/)の[国連ベクトルタイルツールキット](https://github.com/unvt)からの技術的サポート
 
 ### ベクトルタイルデータのメンテナンス
