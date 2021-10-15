@@ -3,7 +3,7 @@ title: Narok Water, Kenya
 weight: 41
 ---
 
-- [Water Supply Map for Narok Water, KENYA](https://narok.water-gis.com)
+- [Water Supply Map for Narok Water, KENYA](https://maps.narwassco.co.ke)
 - since June 2020.
 
 {{< narokwater_map >}}
