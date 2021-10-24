@@ -11,9 +11,10 @@ defaultContentLanguageInSubdir= true
   editURL = "https://github.com/watergis/docs/edit/master/content/"
   description = "Documentation of GIS for Water"
   author = "Jin IGARASHI"
-  showVisitedLinks = false
+  showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  themeVariant = "mine"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
