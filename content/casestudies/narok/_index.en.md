@@ -19,7 +19,7 @@ https://narwassco.github.io/vt/tiles/{z}/{x}/{y}.mvt
 
 #### Terrain RGB raster tileset
 ```
-https://narwassco.github.io/rw-terrain/tiles/{z}/{x}/{y}.png
+https://narwassco.github.io/narok-terrain/tiles/{z}/{x}/{y}.png
 ```
 
 - available zoom level: 5 - 15
