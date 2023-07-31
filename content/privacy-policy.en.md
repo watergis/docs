@@ -208,5 +208,5 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 If you have any questions about this Privacy Policy, You can contact us:
 
-- By visiting this page on our website: https://water-gis.com
+- By visiting this page on our website: https://jin-igarashi.me
 - By sending us an email: info@water-gis.com
