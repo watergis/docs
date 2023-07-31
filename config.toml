@@ -57,6 +57,11 @@ identifier = "ds"
 url = "https://jin-igarashi.me/en"
 weight = 40
 
+[[Languages.en.menu.shortcuts]]
+name = "Privacy policy"
+url = "/privacy-policy"
+weight = 50
+
 [Languages.ja]
 title = "GIS for Waterドキュメンテーション"
 weight = 2
@@ -92,3 +97,8 @@ name = "<i class='fas fa-address-card'></i> 連絡先"
 identifier = "ds"
 url = "https://jin-igarashi.me/ja"
 weight = 40
+
+[[Languages.ja.menu.shortcuts]]
+name = "プライバシーポリシー"
+url = "/privacy-policy"
+weight = 50
